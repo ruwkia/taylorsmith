@@ -8,14 +8,9 @@ function About() {
   const onLeave = () => setIsHovering(false);
 
   const getProfileSection = () => {
-    /*if (isHovering) {
-      return (
-        <>
-          <Image src='/images/frog.jpg' className="mb-2" width={300} height={195} onMouseLeave={onLeave} />
-          ❓ My friend's frog that apparently bears resemblance to me
-        </>
-      )
-    } else {*/
+    if (isHovering) {
+      
+    } else {
       return (
         <>
           <Image src='/images/me.png' className="mb-2" width={300} height={195} onMouseEnter={onHover} />

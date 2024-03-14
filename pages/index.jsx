@@ -50,11 +50,11 @@ function Home() {
       </h1>
       <br />
       <p>
-        <b>Welcome to my corner of the galaxy ⋆⭒˚.⋆.</b> Go ahead, grab yourself something to drink. Very conveniently, I have a cooler full of{' '}
+        <b>Welcome to my website ⋆⭒˚.⋆.</b> Grab yourself something to drink. I have a mini fridge full of{' '}
         <PlayLink type="drinks" />
         {' '}{drinksEmoji[wordsState['drinks']]}.
         <br /><br />
-        I'm an artist. I study Digital Arts (DART) at Penn State. I like macha, boba, and <PlayLink type="hobbies" />.
+        I'm an artist. I study Digital Arts and Media Design (DART) at Penn State University. I like iced matcha lattes, art, and <PlayLink type="hobbies" />.
         <br /><br />
         Reach out anytime at <b>tayrain333 at gmail dot com</b>.
         <br /><br />

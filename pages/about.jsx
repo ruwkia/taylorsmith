@@ -8,16 +8,12 @@ function About() {
   const onLeave = () => setIsHovering(false);
 
   const getProfileSection = () => {
-    if (isHovering) {
-      
-    } else {
+    //<Image src='/images/me.png' className="mb-2" width={300} height={195} onMouseEnter={onHover} />
       return (
         <>
-          <Image src='/images/me.png' className="mb-2" width={300} height={195} onMouseEnter={onHover} />
           📍 Home
         </>
       )
-    }
   }
 
   return (

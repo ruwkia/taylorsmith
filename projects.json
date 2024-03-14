@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "title": "Video Games",
+      "list": [
+        {
+          "name": "identity quest",
+          "type": "game",
+          "description": "find your sense of belonging after becoming disoriented.",
+          "date": "feb 2024",
+          "image": "/images/identity_quest.png",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Posters",
+      "list": [
+        {
+
+        }
+      ] 
+    },
+    {
+      "title": "3D Models",
+      "list": [
+        {
+
+        }
+      ]
+    }
+  ]
+}

@@ -33,7 +33,7 @@
           "type": "game",
           "description": "craft, learn, and create paper figures",
           "date": "nov 2023",
-          "image": "",
+          "image": "/images/origami.png",
           "link": "#"
         },
         {
@@ -41,7 +41,7 @@
           "type": "game",
           "description": "create simple drawings with this pastel drawing tool",
           "date": "oct 2023",
-          "image": "",
+          "image": "/images/drawingtool.png",
           "link": "#"
         },
         {
@@ -51,10 +51,6 @@
           "date": "oct 2023",
           "image": "/images/bunnygame.png",
           "link": "#"
-        },
-        {
-
-
         }
       ]
     },
@@ -100,11 +96,7 @@
           "date": "dec 2021",
           "image": "/images/sushi.png",
           "link": "#"
-        },
-        {
-        
-
-        }  
+        }
       ] 
     },
     {

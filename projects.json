@@ -16,7 +16,7 @@
           "type": "game",
           "description": "relax and collect seashells",
           "date": "jan 2024",
-          "image": "",
+          "image": "/images/shoreline_scavenger.png",
           "link": "#"
         },
         { 
@@ -24,7 +24,7 @@
           "type": "game",
           "description": "catch ingredients to make a cake for your mom",
           "date": "dec 2023",
-          "image": "",
+          "image": "/images/cake.png",
           "link": "#"
 
       },
@@ -74,7 +74,7 @@
           "type": "3d models",
           "description": "pink lemonade chess board",
           "date": "aug 2021",
-          "image": "",
+          "image": "/images/chessboard.png",
           "link": "#"
         },
         {
@@ -82,7 +82,7 @@
           "type": "3d models",
           "description": "plate of macaroons",
           "date": "nov 2021",
-          "image": "",
+          "image": "/images/macaroons.png",
           "link": "#"
         },
         {
@@ -90,7 +90,7 @@
           "type": "3d models",
           "description": "fidget cube made in blender",
           "date": "jan 2022",
-          "image": "",
+          "image": "/images/fidget_cube.png",
           "link": "#"
         },
         {
@@ -98,7 +98,7 @@
           "type": "3d models",
           "description": "salmon nigiri on wood plate",
           "date": "dec 2021",
-          "image": "",
+          "image": "/images/sushi.png",
           "link": "#"
         },
         {
@@ -115,7 +115,7 @@
             "type": "digital paintings",
             "description": "abstract shapes",
             "date": "jan 2022",
-            "image": "",
+            "image": "/images/abstract_shape.png",
             "link": "#"
           },
           {
@@ -123,7 +123,7 @@
             "type": "digital paintings",
             "description": "two paper people holding hands",
             "date": "feb 2022",
-            "image": "",
+            "image": "/images/love.png",
             "link": "#"
           },
           {
@@ -131,7 +131,7 @@
             "type": "digital paintings",
             "description": "rainbow abstract shapes",
             "date": "march 2022",
-            "image": "",
+            "image": "/images/rainbow.png",
             "link": "#"
           },
           {
@@ -139,15 +139,15 @@
             "type": "digital paintings",
             "description": "angel bunny surrounded by abstract balloons and confetti",
             "date": "april 2022",
-            "image": "",
+            "image": "/images/angel.jpg",
             "link": "#"
           },
           {
             "name": "planet",
             "type": "digital paintings",
-            "description": "angel bunny surrounded by abstract balloons and confetti",
+            "description": "A black and white planet",
             "date": "jan 2023",
-            "image": "",
+            "image": "/images/planet.jpg",
             "link": "#"
 
           }
@@ -159,9 +159,9 @@
       {
         "name": "confidence",
         "type": "posters",
-        "description": "poster adorned witj positive words alongside pictures of Yeji from ITZY",
+        "description": "poster adorned with positive words alongside pictures of Yeji from ITZY",
         "date": "jan 2022",
-        "image": "",
+        "image": "/images/confidence.jpg",
         "link": "#"
       },
         {
@@ -169,7 +169,7 @@
         "type": "posters",
         "description": "alcoholism awareness poster",
         "date": "feb 2022",
-        "image": "",
+        "image": "/images/thinkbeforeyoudrink.png",
         "link": "#"
         },
         { 
@@ -177,7 +177,7 @@
           "type": "posters",
           "description": "hydration poster",
           "date": "march 2022",
-          "image": "",
+          "image": "/images/stayhydrated.png",
           "link": "#"
         },
         { 
@@ -185,7 +185,7 @@
           "type": "posters",
           "description": "typeface poster featuring the font Calluna",
           "date": "april 2022",
-          "image": "",
+          "image": "/images/calluna.png",
           "link": "#"
         },
         {
@@ -193,7 +193,7 @@
           "type": "posters",
           "description": "typeface poster featuring the font Bitcount Grid Double",
           "date": "may 2022",
-          "image": "",
+          "image": "/images/bitcount.png",
           "link": "#"
         }
       ]
@@ -215,7 +215,7 @@
           "type": "other works",
           "description": "twitch overlay",
           "date": "march 2023",
-          "image": "",
+          "image": "/images/overlay.jpg",
           "link": "#"
         },
         {
@@ -223,7 +223,7 @@
           "type": "other works",
           "description": "butterfly russian doll made out of wood and acrylic paint",
           "date": "sep 2021",
-          "image": "",
+          "image": "/images/russiandoll.png",
           "link": "#"
         },
         {
@@ -231,7 +231,7 @@
           "type": "other works",
           "description": "twitch banner",
           "date": "sep 2021",
-          "image": "",
+          "image": "/images/mari.png",
           "link": "#"
         }
       ]

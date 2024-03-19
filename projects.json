@@ -49,7 +49,7 @@
           "type": "game",
           "description": "collect unique bunnies by completing colorful puzzles in different biomes ",
           "date": "oct 2023",
-          "image": "",
+          "image": "/images/bunnygame.png",
           "link": "#"
         },
         {
@@ -115,7 +115,7 @@
             "type": "digital paintings",
             "description": "abstract shapes",
             "date": "jan 2022",
-            "image": "/images/abstract_shape.png",
+            "image": "/images/abstract_shapes.jpg",
             "link": "#"
           },
           {
@@ -123,7 +123,7 @@
             "type": "digital paintings",
             "description": "two paper people holding hands",
             "date": "feb 2022",
-            "image": "/images/love.png",
+            "image": "/images/love.jpg",
             "link": "#"
           },
           {
@@ -131,7 +131,7 @@
             "type": "digital paintings",
             "description": "rainbow abstract shapes",
             "date": "march 2022",
-            "image": "/images/rainbow.png",
+            "image": "/images/rainbow.jpg",
             "link": "#"
           },
           {
@@ -169,7 +169,7 @@
         "type": "posters",
         "description": "alcoholism awareness poster",
         "date": "feb 2022",
-        "image": "/images/thinkbeforeyoudrink.png",
+        "image": "/images/thinkbeforeyoudrink.jpg",
         "link": "#"
         },
         { 
@@ -223,7 +223,7 @@
           "type": "other works",
           "description": "butterfly russian doll made out of wood and acrylic paint",
           "date": "sep 2021",
-          "image": "/images/russiandoll.png",
+          "image": "/images/russiandoll.jpg",
           "link": "#"
         },
         {

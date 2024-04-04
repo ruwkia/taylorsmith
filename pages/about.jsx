@@ -27,7 +27,7 @@ function About() {
         <br /><br />
         I am originally from Atlanta, GA. I live in Charlottesville, VA now and I am a 3rd year Digital Arts and Media Design major.
         <br /><br />
-         I like to create digital paintings, make games, 3D model, animate , etc. 
+         I like to create digital paintings, make games, 3D model, animate, etc. 
         <br /><br />
         I care about social impact & creative technology. I love dabbling in as many disciplines as possible, learning by experimenting, and building unique experiences. I also love collaborations!
         <br />

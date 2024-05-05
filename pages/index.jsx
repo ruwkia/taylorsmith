@@ -3,7 +3,7 @@ import Url from '../components/Url'
 
 const words = {
   drinks: ['iced matcha latte', 'lemonade', 'brown sugar boba tea', 'water', 'hot chocolate'],
-  hobbies: ['playing video games', 'wasting my money on overpriced clothing', 'beating my friends in golf', 'talking about the idea of going to the gym']
+  hobbies: ['playing video games', 'eating the spiciest foods on the planet', 'beating my friends in golf', 'talking about the idea of going to the gym']
 }
 const drinksEmoji = ['🍵', '🍋', '🧋', '🧊', '🍫']
 const greeting = 'hi, i\'m taylor!'

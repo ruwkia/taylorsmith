@@ -1,4 +1,4 @@
-import projects from '../projects.json'
+import projects from '../utils/projects.json'
 import Image from 'next/image'
 
 function Projects() {
@@ -13,9 +13,10 @@ function Projects() {
           {list.map((item, index) => {
             const { name, type, description, date, link, image } = item
             return (
-              <div key={index} className="flex flex-col w-[300px] md:w-[47%] mb-10">
+              //<div key={index} className="flex flex-col w-[300px] md:w-[47%] mb-10">
+              <div key={index} className="flex flex-col mb-10">
                 <a href={link} target="_blank" className="font-bold">
-                  <Image src={image} alt={name} width={500} height={362} className="w-full card mb-5" />
+                  <Image src={image} alt={name} width={750} height={500} className="w-full card mb-5" />
                 </a>
                 <a href={link} target="_blank" className="font-bold">{name}</a>
                 <p>{type} / {date}</p>
@@ -30,7 +31,6 @@ function Projects() {
 
   return (
     <>
-      <p>My gallery of things. Take a look around!</p>
       <div className="flex flex-col gap-4 mt-4">
         {sections.map((section, index) => <Section key={index} section={section} />)}
       </div>

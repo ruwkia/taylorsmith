@@ -8,12 +8,21 @@ function About() {
   const onLeave = () => setIsHovering(false);
 
   const getProfileSection = () => {
-    //<Image src='/images/me.png' className="mb-2" width={300} height={195} onMouseEnter={onHover} />
+    if (isHovering) {
       return (
         <>
-          📍 Home
+          <Image src='/images/milo.png' width={300} height={195} onMouseLeave={onLeave} quality={100} className="my-image" />
+          This is my dog, Milo!
         </>
       )
+    } else {
+      return (
+        <>
+          <Image src='/images/me.jpg' width={300} height={195} onMouseEnter={onHover} quality={100} className="my-image" />
+          Me!
+        </>
+      )
+    }
   }
 
   return (
@@ -25,7 +34,7 @@ function About() {
         <br /><br />
         Hi! I'm Taylor!
         <br /><br />
-        I am originally from Atlanta, GA. I live in Charlottesville, VA now and I am a 3rd year Digital Arts and Media Design major.
+        I am originally from Atlanta, GA. I live in Charlottesville, VA now and I am a 4th year Digital Arts and Media Design major.
         <br /><br />
          I like to create digital paintings, make games, 3D model, animate, etc. 
         <br /><br />

@@ -35,6 +35,12 @@ h2 {
   font-size: 25px;
 }
 
+.my-image {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
 .card {
   border: 1.5px solid rgba(0, 0, 0, 0.85);
   cursor: pointer;

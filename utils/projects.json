@@ -1,0 +1,74 @@
+{
+  "projects": [
+    {
+      "title": "•───────• Games •───────•",
+      "list": [
+        {
+            "name": "space control",
+            "type": "game",
+            "description": "face the battle of complacency and morality as you repair your broken spaceship",
+            "date": "may 2024",
+            "image": "/images/projects/space_control.png",
+            "link": "#"
+        },
+        {
+            "name": "nautilus",
+            "type": "game",
+            "description": "explore themes of facing your past, reconciliation, loss of a friend, and forgiveness",
+            "date": "april 2024",
+            "image": "/images/projects/nautilus.png",
+            "link": "#"
+        },
+        {
+          "name": "identity quest",
+          "type": "game",
+          "description": "find your sense of belonging after becoming disoriented",
+          "date": "feb 2024",
+          "image": "/images/projects/identity_quest.png",
+          "link": "#"
+        },
+        {
+          "name": "seashell scavenger",
+          "type": "game",
+          "description": "relax and collect seashells",
+          "date": "jan 2024",
+          "image": "/images/projects/shoreline_scavenger.png",
+          "link": "#"
+        },
+        { 
+          "name": "cake",
+          "type": "game",
+          "description": "catch ingredients to make a cake for your mom",
+          "date": "dec 2023",
+          "image": "/images/projects/cake.png",
+          "link": "#"
+
+      },
+        {
+          "name": "origami workshop",
+          "type": "game",
+          "description": "craft, learn, and create paper figures",
+          "date": "nov 2023",
+          "image": "/images/projects/origami.png",
+          "link": "#"
+        },
+        {
+          "name": "drawing tool",
+          "type": "game",
+          "description": "create simple drawings with this pastel drawing tool",
+          "date": "oct 2023",
+          "image": "/images/projects/drawingtool.png",
+          "link": "#"
+        },
+        {
+          "name": "bunny puzzles",
+          "type": "game",
+          "description": "collect unique bunnies by completing colorful puzzles in different biomes ",
+          "date": "oct 2023",
+          "image": "/images/projects/bunnygame.png",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

@@ -54,7 +54,7 @@ function Home() {
         <PlayLink type="drinks" />
         {' '}{drinksEmoji[wordsState['drinks']]}.
         <br /><br />
-        I'm an artist. I study Digital Arts and Media Design (DART) at Penn State University. I like iced matcha lattes, art, and <PlayLink type="hobbies" />.
+        I'm an artist and game-maker. I study Digital Arts and Media Design (DART) at Penn State University. I like iced matcha lattes, art, and <PlayLink type="hobbies" />.
         <br /><br />
         Reach out anytime at <b>tayrain333 at gmail dot com</b>.
         <br /><br />

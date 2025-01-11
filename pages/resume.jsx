@@ -9,7 +9,7 @@ function Resume() {
       <div className="mb-4">
         { isLoading ? <p>Loading... 🔎</p> : <p></p> }
       </div>
-      <iframe src="https://docs.google.com/document/d/15S3AU3lQ3WB1matbxY0ZeYpCiiwdANz80VXgxE-pLT4/edit?usp=sharing" width="640" height="850" allow="autoplay" onLoad={() => setIsLoading(false)} />
+      <iframe src="https://docs.google.com/document/d/1FtrwxisIU5oLhNTu9OxkLvODMA6chJUChxgKIXpkNSQ/preview?tab=t.0" width="640" height="850" allow="autoplay" onLoad={() => setIsLoading(false)} />
     </>
   );
 }

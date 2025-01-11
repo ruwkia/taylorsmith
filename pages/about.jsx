@@ -32,9 +32,9 @@ function About() {
       <p>
         <b>About me</b>
         <br /><br />
-        Hi! I'm Taylor!
+        Hi, I'm Taylor!
         <br /><br />
-        I am originally from Atlanta, GA. I live in Charlottesville, VA now and I am a 4th year Digital Arts and Media Design major.
+        I am originally from Atlanta, GA, but now I call Charlottesville, VA home. I'm a senior at Penn State University, majoring in Digital Arts and Media Design.
         <br /><br />
          I like to create digital paintings, make games, 3D model, animate, etc. 
         <br /><br />
@@ -46,7 +46,17 @@ function About() {
         <b>Previously, I...</b>
       </p>
       <ul className="list-disc list-inside">
-        <li>Worked with a team to create an immersive VR experience</li>
+        <li>
+          Worked with a team to create an immersive VR experience,
+          <a href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer">Nautilus</a>
+        </li>
+        <li>
+          Interned at Penn State Sustainability for a year, focusing on graphic design and social media management
+          </li>
+        <li>
+          Collabortaed with my best friend on a game,
+           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer">Space Control</a>, available on itch.io
+          </li>
       </ul>
       <p>
         <br />

@@ -48,23 +48,16 @@ function About() {
       <ul className="list-disc list-inside">
         <li>
           Worked with a team to create an immersive VR experience, 
-          <a href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer" class="styled-link">Nautilus</a>
+           <a href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer">Nautilus</a>
         </li>
         <li>
           Interned at Penn State Sustainability for a year, focusing on graphic design and social media management
           </li>
         <li>
-          Collabortaed with my best friend on a game, 
-           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer" class="styled-link">Space Control</a>, available on itch.io
+          Collaborated with my best friend on a game, 
+           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer">Space Control</a>, available on itch.io
           </li>
       </ul>
-<style>
-  .styled-link {
-    color: #007bff;
-    text-decoration: underline;
-  }
-</style>
-      
       <p>
         <br />
         <b>✧･ﾟ: *✧･ﾟ:*</b>

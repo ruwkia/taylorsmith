@@ -47,7 +47,7 @@ function About() {
       </p>
       <ul className="list-disc list-inside">
         <li> Created my own 
-          <a href="https://www.linkedin.com/in/tayrsmith/" target="_blank" rel="noopener noreferrer"> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. </a> 
+          <a href="https://www.linkedin.com/in/tayrsmith/details/projects/" target="_blank" rel="noopener noreferrer"> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. </a> 
             </li>                   
         <li>
           Worked with a team to create an immersive VR experience, 

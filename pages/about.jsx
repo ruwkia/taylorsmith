@@ -48,8 +48,7 @@ function About() {
       <ul className="list-disc list-inside">
         <li> Created my own 
           <a href="https://www.linkedin.com/in/tayrsmith/details/projects/" target="_blank" rel="noopener noreferrer" </a> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. 
-            </li>
-                              
+            </li>                   
         <li>
           Worked with a team to create an immersive VR experience, 
            <a href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer"> Nautilus</a>

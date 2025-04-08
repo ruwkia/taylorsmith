@@ -2,9 +2,6 @@
     {
       "title": "3d art",
       "list": [
-        {   "title": "desolate",
-            "images": ["/images/artworks/world.gif"]
-        },
         {
             "title": "tv",
             "images": ["/images/artworks/tv.gif"]

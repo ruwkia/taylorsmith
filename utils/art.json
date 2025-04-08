@@ -1,7 +1,10 @@
 [
     {
-      "title": "3d art (blender)",
+      "title": "3d art",
       "list": [
+        {   "title": "desolate",
+            "images": ["/images/artworks/desolate.gif"]
+        },
         {
             "title": "tv",
             "images": ["/images/artworks/tv.gif"]

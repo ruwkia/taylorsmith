@@ -3,6 +3,10 @@
       "title": "3d art (blender)",
       "list": [
         {
+            "title": "tv",
+            "images": ["/images/artworks/tv.gif"]
+        },
+        {
             "title": "summer",
             "images": ["/images/artworks/CliffRender2.png"]
         },

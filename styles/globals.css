@@ -183,3 +183,13 @@ h2 {
     transform: translateY(0em);
   }
 }
+@layer base {
+  a {
+    text-decoration: underline;
+    color: #e45b40;
+    cursor: pointer;
+  }
+  a:hover {
+    opacity:0.5;
+  }
+}

@@ -3,6 +3,10 @@
       "title": "3d",
       "list": [
         {
+            "title": "bakery",
+            "images": ["/images/artworks.bunny_bakery.gif"]
+        },
+        {
             "title": "tv",
             "images": ["/images/artworks/tv.gif"]
         },

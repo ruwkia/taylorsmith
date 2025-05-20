@@ -7,6 +7,10 @@
             "images": ["/images/artworks/bunny_bakery.gif"]
         },
         {
+            "title": "desolate",
+            "images": ["/images/artworks/world2.gif"]
+        },
+        {
             "title": "tv",
             "images": ["/images/artworks/tv.gif"]
         },

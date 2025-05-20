@@ -1,12 +1,14 @@
-import artSections from '../utils/art.json'
-import Image from 'next/image'
+import { useState } from 'react';
+import artSections from '../utils/art.json';
+import Image from 'next/image';
+
 function Section({ section }) {
   const { title, list } = section;
 
   function autolink(text) {
-    const urlRegex = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig;
+    const urlRegex = /(\b(https?|ftp|file):\/\/[\-A-Z0-9+&@#\/%?=~_|!:,.;]*[\-A-Z0-9+&@#\/%=~_|])/ig;
     return text.replace(urlRegex, function(url) {
-      const displayUrl = url.replace(/^https?:\/\/www./, '').replace(/\/$/, '');
+      const displayUrl = url.replace(/^https?:\/\/www\./, '').replace(/\/$/, '');
       return `<a href="${url}" target="_blank" class="underline" rel="noopener noreferrer">${displayUrl}</a>`;
     });
   }
@@ -36,12 +38,31 @@ function Section({ section }) {
   );
 }
 
-function Art() {
+export default function Art() {
+  const [selectedType, setSelectedType] = useState(artSections[0].title);
+  const allTypes = artSections.map(section => section.title);
+
   return (
     <div className="flex flex-col gap-2">
-      {artSections.map((section, index) => <Section key={index} section={section} />)}
+      <p>I often use Procreate, Blender, After Effects.</p>
+      <nav className="flex flex-row gap-2 mt-2 mb-4">
+        {allTypes.map(type => (
+          <button
+            key={type}
+            onClick={() => setSelectedType(type)}
+            className={
+              selectedType === type
+                ? 'px-2 py-1 bg-black text-white rounded-md text-sm font-mono'
+                : 'px-2 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
+            }
+          >
+            [{type}]
+          </button>
+        ))}
+      </nav>
+      {artSections.map((section, index) => (
+        section.title === selectedType && <Section key={index} section={section} />
+      ))}
     </div>
-  )
+  );
 }
-
-export default Art

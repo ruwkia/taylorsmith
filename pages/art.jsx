@@ -25,40 +25,34 @@ function Section({ section }) {
               key={index}
               className={`flex flex-col w-full ${containerWidthClass} mb-10`}
             >
-              {/* Media row */}
+              {/* Media row without outlines */}
               <div className="flex w-full justify-between gap-2">
                 {images.map((src, imgIndex) => {
                   const isGif = src.toLowerCase().endsWith('.gif');
-                  if (isGif) {
-                    return (
-                      <img
-                        key={imgIndex}
-                        src={src}
-                        alt={artTitle}
-                        className="object-cover card mb-5"
-                        style={{ width: '100%', height: 'auto' }}
-                      />
-                    );
-                  } else {
-                    const width = is3d ? 1200 : 512;
-                    const height = is3d ? 900 : 288;
-                    return (
-                      <Image
-                        key={imgIndex}
-                        src={src}
-                        alt={artTitle}
-                        width={width}
-                        height={height}
-                        quality={100}
-                        className="object-cover card mb-5"
-                        style={{ maxWidth: '100%', height: 'auto' }}
-                      />
-                    );
-                  }
+                  return isGif ? (
+                    <img
+                      key={imgIndex}
+                      src={src}
+                      alt={artTitle}
+                      className="object-cover"
+                      style={{ width: '100%', height: 'auto' }}
+                    />
+                  ) : (
+                    <Image
+                      key={imgIndex}
+                      src={src}
+                      alt={artTitle}
+                      width={is3d ? 1200 : 800}
+                      height={is3d ? 900 : 600}
+                      quality={100}
+                      className="object-cover"
+                      style={{ maxWidth: '100%', height: 'auto' }}
+                    />
+                  );
                 })}
               </div>
-              {/* Title below images without bold */}
-              <p className="mt-2 lowercase">
+              {/* Title directly beneath media, no extra gap */}
+              <p className="mt-1 lowercase">
                 [<span dangerouslySetInnerHTML={{ __html: autolink(artTitle) }} />]
               </p>
               {description && <p className="mt-1 text-sm">{description}</p>}

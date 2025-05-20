@@ -18,7 +18,7 @@ function Section({ section }) {
       <b><p>•───────• {title} •───────•</p></b>
       {list.map((art, index) => (
         <div key={index} className="flex flex-col w-full md:w-[80%] mb-10">
-          <p>[<span dangerouslySetInnerHTML={{ __html: autolink(art.title) }} />]</p>
+          {/* Images row */}
           <div className="flex w-full justify-between gap-2">
             {art.images.map((image, imgIndex) => (
               <img
@@ -32,6 +32,8 @@ function Section({ section }) {
               />
             ))}
           </div>
+          {/* Title below images */}
+          <p className="mt-2">[<span dangerouslySetInnerHTML={{ __html: autolink(art.title) }} />]</p>
         </div>
       ))}
     </>
@@ -44,7 +46,7 @@ export default function Art() {
 
   return (
     <div className="flex flex-col gap-2">
-      <p>I often use Procreate, Blender, and After Effects.</p>
+      <p>I often use Procreate, Blender, After Effects.</p>
       <nav className="flex flex-row gap-2 mt-2 mb-4">
         {allTypes.map(type => (
           <button

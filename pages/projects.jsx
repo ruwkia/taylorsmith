@@ -19,8 +19,8 @@ function Section({ section, selectedType }) {
           // Check for Nature’s Song by its image filename
           const isNature = image.includes('natures_song.png');
           // Set dimensions
-          const imgWidth = isNature ? 512 : 750;
-          const imgHeight = isNature ? 288 : 500;
+          const imgWidth = isNature ? 320 : 750;
+          const imgHeight = isNature ? 180 : 500;
           // Conditional styling: no full width for Nature’s Song
           const imgClass = isNature ? 'card mb-5 object-cover' : 'w-full card mb-5 object-cover';
           const imgStyle = isNature

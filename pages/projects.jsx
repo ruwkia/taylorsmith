@@ -16,11 +16,16 @@ function Section({ section, selectedType }) {
       <div className="flex flex-row gap-2 flex-wrap justify-between">
         {filteredList.map((item, index) => {
           const { name, type, description, date, link, image } = item;
-          // Detect the Nature’s Song image by filename
+          // Check for Nature’s Song by its image filename
           const isNature = image.includes('natures_song.png');
-          // Use original dimensions for Nature’s Song only
+          // Set dimensions
           const imgWidth = isNature ? 512 : 750;
           const imgHeight = isNature ? 288 : 500;
+          // Conditional styling: no full width for Nature’s Song
+          const imgClass = isNature ? 'card mb-5 object-cover' : 'w-full card mb-5 object-cover';
+          const imgStyle = isNature
+            ? { width: imgWidth, height: imgHeight }
+            : { maxWidth: '100%', height: 'auto' };
 
           return (
             <div key={index} className="flex flex-col mb-10">
@@ -36,8 +41,8 @@ function Section({ section, selectedType }) {
                   width={imgWidth}
                   height={imgHeight}
                   quality={100}
-                  style={{ maxWidth: '100%', height: 'auto' }}
-                  className="w-full card mb-5 object-cover"
+                  className={imgClass}
+                  style={imgStyle}
                 />
               </a>
               <a
@@ -61,17 +66,11 @@ function Section({ section, selectedType }) {
 export default function Projects() {
   const sections = projects['projects'];
   const [selectedType, setSelectedType] = useState('all');
-  // Hardcode filter types to show in order
   const allTypes = ['all', 'game', 'app'];
 
   return (
     <>
-      {/* Intro paragraph above the filters */}
-      <p>
-        Take a look around! I often use Godot Engine, Blender, and Adobe Illustrator.
-      </p>
-
-      {/* Tiffany-style filter pills: selected is black, others are pink */}
+      <p>Take a look around! I often use Godot Engine, Blender, and Adobe Illustrator.</p>
       <nav className="flex flex-row gap-2 mt-4 mb-4">
         {allTypes.map(type => (
           <button
@@ -87,7 +86,6 @@ export default function Projects() {
           </button>
         ))}
       </nav>
-
       <div className="flex flex-col gap-4 mt-4">
         {sections.map((section, index) => (
           <Section

@@ -60,8 +60,7 @@ export default function Projects() {
     <>
       {/* Intro paragraph above the filters */}
       <p>
-        Take a look around! I often use Typescript, Python, Next.js, and Unity.
-        Smaller projects live on my{' '}
+        Take a look around! I often use Godot Engine, Blender, and Adobe Illustrator
         <a
           className="link"
           href="https://github.com/taylorsmith"
@@ -72,7 +71,7 @@ export default function Projects() {
         </a>.
       </p>
 
-      {/* Tiffany-style filter pills with light pink highlight */}
+      {/* Tiffany-style filter pills: selected is black, others are pink */}
       <nav className="flex flex-row gap-2 mt-4 mb-4">
         {allTypes.map(type => (
           <button
@@ -80,8 +79,8 @@ export default function Projects() {
             onClick={() => setSelectedType(type)}
             className={
               selectedType === type
-                ? 'px-2 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
-                : 'px-2 py-1 bg-yellow-200 text-black rounded-md text-sm font-mono'
+                ? 'px-2 py-1 bg-black text-white rounded-md text-sm font-mono'
+                : 'px-2 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
             }
           >
             [{type}]

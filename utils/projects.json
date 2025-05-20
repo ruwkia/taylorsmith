@@ -4,6 +4,15 @@
       
       "list": [
         {
+          "name": "nature’s song",
+          "type": "game",
+          "description": "a rhythm-based game where you restore a magical meadow by matching beats",
+          "date": "september 2024 - may 2025",
+          "image": "/images/projects/natures_song.png",
+          "link": "https://youtu.be/QQdM6xn_3IQ"
+          },
+
+        {
             "name": "space control",
             "type": "game",
             "description": "face the battle of complacency and morality as you repair your broken spaceship",

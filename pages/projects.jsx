@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 function Section({ section, selectedType }) {
   const { title, list } = section;
-  // Filter the list based on the selected type
   const filteredList =
     selectedType === 'all'
       ? list
@@ -53,19 +52,27 @@ function Section({ section, selectedType }) {
 
 export default function Projects() {
   const sections = projects['projects'];
-  // State for the filter tabs
   const [selectedType, setSelectedType] = useState('all');
-  // Build unique types array + 'all'
-  const allTypes = [
-    'all',
-    ...new Set(
-      sections.flatMap(section => section.list.map(item => item.type))
-    ),
-  ];
+  // Hardcode filter types to show app and maintain order
+  const allTypes = ['all', 'game', 'research', 'app'];
 
   return (
     <>
-      {/* Filter pills at top */}
+      {/* Intro paragraph above the filters */}
+      <p>
+        Take a look around! I often use Typescript, Python, Next.js, and Unity.
+        Smaller projects live on my{' '}
+        <a
+          className="link"
+          href="https://github.com/taylorsmith"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>.
+      </p>
+
+      {/* Tiffany-style filter pills with light pink highlight */}
       <nav className="flex flex-row gap-2 mt-4 mb-4">
         {allTypes.map(type => (
           <button
@@ -73,7 +80,7 @@ export default function Projects() {
             onClick={() => setSelectedType(type)}
             className={
               selectedType === type
-                ? 'px-2 py-1 bg-black text-white rounded-md text-sm font-mono'
+                ? 'px-2 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
                 : 'px-2 py-1 bg-yellow-200 text-black rounded-md text-sm font-mono'
             }
           >

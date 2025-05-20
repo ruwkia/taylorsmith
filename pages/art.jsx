@@ -16,11 +16,9 @@ function Section({ section }) {
 
   return (
     <>
-      <p><b>{title}</b></p>
       <div className="flex flex-row gap-4 flex-wrap justify-between">
         {list.map((art, index) => {
           const { title: artTitle, images, description } = art;
-          // Increase width for 3D section items
           const containerWidthClass = is3d ? 'md:w-[100%]' : 'md:w-[80%]';
           return (
             <div
@@ -38,14 +36,10 @@ function Section({ section }) {
                         src={src}
                         alt={artTitle}
                         className="object-cover card mb-5"
-                        style={{
-                          width: '100%',
-                          height: 'auto'
-                        }}
+                        style={{ width: '100%', height: 'auto' }}
                       />
                     );
                   } else {
-                    // Make static images larger in 3D
                     const width = is3d ? 1200 : 512;
                     const height = is3d ? 900 : 288;
                     return (
@@ -63,8 +57,8 @@ function Section({ section }) {
                   }
                 })}
               </div>
-              {/* Title and description below */}
-              <p className="mt-2 lowercase font-bold">
+              {/* Title below images without bold */}
+              <p className="mt-2 lowercase">
                 [<span dangerouslySetInnerHTML={{ __html: autolink(artTitle) }} />]
               </p>
               {description && <p className="mt-1 text-sm">{description}</p>}

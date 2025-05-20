@@ -16,10 +16,11 @@ function Section({ section, selectedType }) {
       <div className="flex flex-row gap-2 flex-wrap justify-between">
         {filteredList.map((item, index) => {
           const { name, type, description, date, link, image } = item;
-          // Conditionally set size for Nature’s Song only
+          // Use original dimensions for Nature’s Song only
           const isNature = name.toLowerCase() === "nature’s song";
-          const imgWidth = isNature ? 600 : 750;
-          const imgHeight = Math.round((imgWidth * 500) / 750);
+          const imgWidth = isNature ? 512 : 750;
+          const imgHeight = isNature ? 288 : 500;
+
           return (
             <div key={index} className="flex flex-col mb-10">
               <a

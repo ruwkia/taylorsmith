@@ -47,18 +47,18 @@ function About() {
       </p>
       <ul className="list-disc list-inside">
         <li> Created my own 
-          <a href="https://www.linkedin.com/in/tayrsmith/details/projects/" target="_blank" rel="noopener noreferrer"> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. </a> 
+         <a className="link" href="https://youtu.be/QQdM6xn_3IQ" target="_blank" rel="noopener noreferrer">rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ.</a>
             </li>                   
         <li>
           Worked with a team to create an immersive VR experience, 
-           <a href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer"> Nautilus</a>
+           <a className="link" href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer">Nautilus</a>
         </li>
         <li>
           Interned at Penn State Sustainability for a year, focusing on graphic design and social media management
           </li>
         <li>
           Collaborated with my best friend on a game, 
-           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer"> Space Control</a>, available on itch.io
+           <a className="link" href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer">Space Control</a>, available on itch.io
           </li>
       </ul>
       <p>

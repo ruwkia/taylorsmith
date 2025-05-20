@@ -44,7 +44,7 @@ export default function Art() {
 
   return (
     <div className="flex flex-col gap-2">
-      <p>I often use Procreate, Blender, After Effects.</p>
+      <p>I often use Procreate, Blender, and After Effects.</p>
       <nav className="flex flex-row gap-2 mt-2 mb-4">
         {allTypes.map(type => (
           <button

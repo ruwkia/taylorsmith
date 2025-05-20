@@ -46,7 +46,7 @@
       },
         {
           "name": "origami workshop",
-          "type": "game",
+          "type": "app",
           "description": "craft, learn, and create paper figures",
           "date": "nov 2023",
           "image": "/images/projects/origami.png",
@@ -54,7 +54,7 @@
         },
         {
           "name": "drawing tool",
-          "type": "game",
+          "type": "app",
           "description": "create simple drawings with this pastel drawing tool",
           "date": "oct 2023",
           "image": "/images/projects/drawingtool.png",

@@ -4,38 +4,74 @@ import Image from 'next/image';
 
 function Section({ section }) {
   const { title, list } = section;
+  const is3d = title.toLowerCase() === '3d';
 
   function autolink(text) {
     const urlRegex = /(\b(https?|ftp|file):\/\/[\-A-Z0-9+&@#\/%?=~_|!:,.;]*[\-A-Z0-9+&@#\/%=~_|])/ig;
     return text.replace(urlRegex, function(url) {
       const displayUrl = url.replace(/^https?:\/\/www\./, '').replace(/\/$/, '');
-      return `<a href="${url}" target="_blank" class="underline" rel="noopener noreferrer">${displayUrl}</a>`;
+      return `<a href=\"${url}\" target=\"_blank\" class=\"underline\" rel=\"noopener noreferrer\">${displayUrl}</a>`;
     });
   }
 
   return (
     <>
-      
-      {list.map((art, index) => (
-        <div key={index} className="flex flex-col w-full md:w-[80%] mb-10">
-          {/* Images row */}
-          <div className="flex w-full justify-between gap-2">
-            {art.images.map((image, imgIndex) => (
-              <img
-                key={imgIndex}
-                src={image}
-                alt={art.title}
-                style={{
-                  width: `calc(100% / ${art.images.length})`,
-                  height: 'auto'
-                }}
-              />
-            ))}
-          </div>
-          {/* Title below images */}
-          <p className="mt-2">[<span dangerouslySetInnerHTML={{ __html: autolink(art.title) }} />]</p>
-        </div>
-      ))}
+      <p><b>{title}</b></p>
+      <div className="flex flex-row gap-4 flex-wrap justify-between">
+        {list.map((art, index) => {
+          const { title: artTitle, images, description } = art;
+          // Increase width for 3D section items
+          const containerWidthClass = is3d ? 'md:w-[100%]' : 'md:w-[80%]';
+          return (
+            <div
+              key={index}
+              className={`flex flex-col w-full ${containerWidthClass} mb-10`}
+            >
+              {/* Media row */}
+              <div className="flex w-full justify-between gap-2">
+                {images.map((src, imgIndex) => {
+                  const isGif = src.toLowerCase().endsWith('.gif');
+                  if (isGif) {
+                    return (
+                      <img
+                        key={imgIndex}
+                        src={src}
+                        alt={artTitle}
+                        className="object-cover card mb-5"
+                        style={{
+                          width: '100%',
+                          height: 'auto'
+                        }}
+                      />
+                    );
+                  } else {
+                    // Make static images larger in 3D
+                    const width = is3d ? 1200 : 512;
+                    const height = is3d ? 900 : 288;
+                    return (
+                      <Image
+                        key={imgIndex}
+                        src={src}
+                        alt={artTitle}
+                        width={width}
+                        height={height}
+                        quality={100}
+                        className="object-cover card mb-5"
+                        style={{ maxWidth: '100%', height: 'auto' }}
+                      />
+                    );
+                  }
+                })}
+              </div>
+              {/* Title and description below */}
+              <p className="mt-2 lowercase font-bold">
+                [<span dangerouslySetInnerHTML={{ __html: autolink(artTitle) }} />]
+              </p>
+              {description && <p className="mt-1 text-sm">{description}</p>}
+            </div>
+          );
+        })}
+      </div>
     </>
   );
 }
@@ -45,26 +81,26 @@ export default function Art() {
   const allTypes = artSections.map(section => section.title);
 
   return (
-    <div className="flex flex-col gap-2">
-      <p>I often use Procreate, Blender, and After Effects.</p>
-      <nav className="flex flex-row gap-2 mt-2 mb-4">
+    <div className="flex flex-col gap-4 p-4">
+      <p className="text-base">I often use Procreate, Blender, After Effects.</p>
+      <nav className="flex gap-2 mb-4">
         {allTypes.map(type => (
           <button
             key={type}
             onClick={() => setSelectedType(type)}
             className={
               selectedType === type
-                ? 'px-2 py-1 bg-black text-white rounded-md text-sm font-mono'
-                : 'px-2 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
+                ? 'px-3 py-1 bg-black text-white rounded-md text-sm font-mono'
+                : 'px-3 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
             }
           >
             [{type}]
           </button>
         ))}
       </nav>
-      {artSections.map((section, index) => (
-        section.title === selectedType && <Section key={index} section={section} />
-      ))}
+      {artSections.map((section, idx) =>
+        section.title === selectedType ? <Section key={idx} section={section} /> : null
+      )}
     </div>
   );
 }

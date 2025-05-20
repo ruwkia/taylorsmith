@@ -15,7 +15,7 @@ function Section({ section }) {
 
   return (
     <>
-      <b><p>•───────• {title} •───────•</p></b>
+      
       {list.map((art, index) => (
         <div key={index} className="flex flex-col w-full md:w-[80%] mb-10">
           {/* Images row */}

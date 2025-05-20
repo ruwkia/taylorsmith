@@ -47,7 +47,7 @@ function About() {
       </p>
       <ul className="list-disc list-inside">
         <li> Created my own 
-          <a href="https://www.linkedin.com/in/tayrsmith/details/projects/" target="_blank" rel="noopener noreferrer"> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. </a> 
+          <a href="https://www.linkedin.com/in/tayrsmith/details/projects/" target="_blank" rel="noopener noreferrer">rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ. </a> 
             </li>                   
         <li>
           Worked with a team to create an immersive VR experience, 
@@ -58,7 +58,7 @@ function About() {
           </li>
         <li>
           Collaborated with my best friend on a game, 
-           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer"> Space Control</a>, available on itch.io
+           <a href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer">Space Control</a>, available on itch.io
           </li>
       </ul>
       <p>

@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 import Url from '../components/Url'
 
 const words = {
-  drinks: ['iced matcha latte', 'lemonade', 'brown sugar boba tea', 'water', 'hot chocolate'],
+  drinks: ['orange juice', 'lemonade', 'brown sugar boba tea', 'water', 'hot chocolate'],
   hobbies: ['playing video games', 'eating the spiciest foods on the planet', 'beating my friends in golf', 'talking about the idea of going to the gym']
 }
-const drinksEmoji = ['🍵', '🍋', '🧋', '🧊', '🍫']
+const drinksEmoji = ['🍊', '🍋', '🧋', '🧊', '🍫']
 const greeting = 'hi, i\'m taylor!'
 
 function Home() {
@@ -54,7 +54,7 @@ function Home() {
         <PlayLink type="drinks" />
         {' '}{drinksEmoji[wordsState['drinks']]}.
         <br /><br />
-        I'm an artist and game-maker. I study Digital Arts and Media Design (DART) at Penn State University. I like iced matcha lattes, art, and <PlayLink type="hobbies" />.
+        I'm a game-maker, artist, and programmer. I recently graduated with a degree in Digital Arts and Media Design from Penn State University. I like iced matcha lattes, art, and <PlayLink type="hobbies" />.
         <br /><br />
         Reach out anytime at <b>tayrain333 at gmail dot com</b>.
         <br /><br />

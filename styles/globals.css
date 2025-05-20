@@ -183,24 +183,3 @@ h2 {
     transform: translateY(0em);
   }
 }
-@layer base {
-  /* 1) Only underline & color links inside your main content wrapper */
-  .body a {
-    text-decoration: underline;
-    color: #e45b40;
-    cursor: pointer;
-  }
-  .body a:hover {
-    opacity: 0.5;
-  }
-
-  /* 2) Force nav links (home/projects/etc.) back to default styling */
-  nav a {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-  }
-  nav a:hover {
-    opacity: 1;
-  }
-}

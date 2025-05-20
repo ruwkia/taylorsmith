@@ -60,15 +60,7 @@ export default function Projects() {
     <>
       {/* Intro paragraph above the filters */}
       <p>
-        Take a look around! I often use Godot Engine, Blender, and Adobe Illustrator
-        <a
-          className="link"
-          href="https://github.com/taylorsmith"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>.
+        Take a look around! I often use Godot Engine, Blender, and Adobe Illustrator.
       </p>
 
       {/* Tiffany-style filter pills: selected is black, others are pink */}

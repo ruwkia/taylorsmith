@@ -27,8 +27,8 @@ function Section({ section, selectedType }) {
                 <Image
                   src={image}
                   alt={name}
-                  width={750}
-                  height={500}
+                  width={600}              // reduced size for better clarity
+                  height={400}
                   quality={100}                  
                   style={{ maxWidth: '100%', height: 'auto' }}  
                   className="w-full card mb-5 object-cover"

@@ -29,6 +29,7 @@ function Section({ section, selectedType }) {
                   alt={name}
                   width={750}
                   height={500}
+                  quality={100}
                   className="w-full card mb-5"
                 />
               </a>

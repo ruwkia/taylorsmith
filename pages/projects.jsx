@@ -16,6 +16,10 @@ function Section({ section, selectedType }) {
       <div className="flex flex-row gap-2 flex-wrap justify-between">
         {filteredList.map((item, index) => {
           const { name, type, description, date, link, image } = item;
+          // Conditionally set size for Nature’s Song only
+          const isNature = name.toLowerCase() === "nature’s song";
+          const imgWidth = isNature ? 600 : 750;
+          const imgHeight = Math.round((imgWidth * 500) / 750);
           return (
             <div key={index} className="flex flex-col mb-10">
               <a
@@ -27,10 +31,10 @@ function Section({ section, selectedType }) {
                 <Image
                   src={image}
                   alt={name}
-                  width={600}              // reduced size for better clarity
-                  height={400}
-                  quality={100}                  
-                  style={{ maxWidth: '100%', height: 'auto' }}  
+                  width={imgWidth}
+                  height={imgHeight}
+                  quality={100}
+                  style={{ maxWidth: '100%', height: 'auto' }}
                   className="w-full card mb-5 object-cover"
                 />
               </a>

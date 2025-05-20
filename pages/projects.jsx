@@ -54,7 +54,7 @@ export default function Projects() {
   const sections = projects['projects'];
   const [selectedType, setSelectedType] = useState('all');
   // Hardcode filter types to show app and maintain order
-  const allTypes = ['all', 'game', 'research', 'app'];
+  const allTypes = ['all', 'game', 'app'];
 
   return (
     <>

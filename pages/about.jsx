@@ -34,11 +34,11 @@ function About() {
         <br /><br />
         Hi, I'm Taylor!
         <br /><br />
-        I am originally from Atlanta, GA, but now I call Charlottesville, VA home. I'm a senior at Penn State University, majoring in Digital Arts and Media Design.
+        I am originally from Atlanta, GA, and recently graduated from Penn State University with a degree in Digital Arts and Media Design. 
         <br /><br />
-         I like to create digital paintings, make games, 3D model, animate, etc. 
+        I love creating digital paintings, designing games, 3D modeling, animation, and more.
         <br /><br />
-        I care about social impact & creative technology. I love dabbling in as many disciplines as possible, learning by experimenting, and building unique experiences. I also love collaborations!
+        I'm passionate about using creative technology for social impacy, experimenting across disciplines, and building unique experiences. I also love collaborations!
         <br />
       </p>
       <br />
@@ -47,18 +47,18 @@ function About() {
       </p>
       <ul className="list-disc list-inside">
         <li> Created my own 
-         <a className="link" href="https://youtu.be/QQdM6xn_3IQ" target="_blank" rel="noopener noreferrer">rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ.</a>
+         <a className="link" href="https://youtu.be/QQdM6xn_3IQ" target="_blank" rel="noopener noreferrer"> rhythm game! ♫⋆｡♪ ₊˚♬ ﾟ.</a>
             </li>                   
         <li>
           Worked with a team to create an immersive VR experience, 
-           <a className="link" href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer">Nautilus</a>
+           <a className="link" href="https://youtu.be/bJZfQfwQ78Q?si=JaYS-eD3R8cW2XYY" target="_blank" rel="noopener noreferrer"> Nautilus</a>
         </li>
         <li>
           Interned at Penn State Sustainability for a year, focusing on graphic design and social media management
           </li>
         <li>
           Collaborated with my best friend on a game, 
-           <a className="link" href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer">Space Control</a>, available on itch.io
+           <a className="link" href="https://cndles.itch.io/space-control" target="_blank" rel="noopener noreferrer"> Space Control</a>, available on itch.io
           </li>
       </ul>
       <p>

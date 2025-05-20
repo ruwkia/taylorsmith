@@ -8,7 +8,7 @@ function Section({ section, selectedType }) {
     selectedType === 'all'
       ? list
       : list.filter(item => item.type === selectedType);
-  if (filteredList.length === 0) return null;
+  if (!filteredList.length) return null;
 
   return (
     <>
@@ -16,8 +16,9 @@ function Section({ section, selectedType }) {
       <div className="flex flex-row gap-2 flex-wrap justify-between">
         {filteredList.map((item, index) => {
           const { name, type, description, date, link, image } = item;
+          // Detect the Nature’s Song image by filename
+          const isNature = image.includes('natures_song.png');
           // Use original dimensions for Nature’s Song only
-          const isNature = name.toLowerCase() === "nature’s song";
           const imgWidth = isNature ? 512 : 750;
           const imgHeight = isNature ? 288 : 500;
 
@@ -60,7 +61,7 @@ function Section({ section, selectedType }) {
 export default function Projects() {
   const sections = projects['projects'];
   const [selectedType, setSelectedType] = useState('all');
-  // Hardcode filter types to show app and maintain order
+  // Hardcode filter types to show in order
   const allTypes = ['all', 'game', 'app'];
 
   return (

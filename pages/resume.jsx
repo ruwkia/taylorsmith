@@ -5,15 +5,16 @@ function Resume() {
 
   return (
     <>
-      {isLoading && (
-        <p className="mb-4">Loading... 🔎</p>
-      )}
+      {isLoading && <p>Loading... 🔎</p>}
       <iframe
         src="https://drive.google.com/file/d/1CmSczDHuM_wEpEXQGitHmdrUN9mzH8-8/preview"
-        width="100%"
-        height="90vh"
+        style={{
+          display: 'block',     // make it fill the container
+          width: '100%',        // full width
+          height: '1000px',     // or '90vh' / whatever you need
+          border: 'none',
+        }}
         allow="autoplay"
-        style={{ border: 'none' }}
         onLoad={() => setIsLoading(false)}
       />
     </>

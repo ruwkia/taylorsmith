@@ -1,17 +1,18 @@
 import { useState } from 'react'
-import Url from '../components/Url'
 
 function Resume() {
   const [isLoading, setIsLoading] = useState(true)
 
   return (
     <>
-      <div className="mb-4">
-        { isLoading ? <p>Loading... 🔎</p> : <p></p> }
-      </div>
-      <iframe src="https://drive.google.com/file/d/1CmSczDHuM_wEpEXQGitHmdrUN9mzH8-8/view?usp=sharing" width="640" height="850" allow="autoplay" onLoad={() => setIsLoading(false)} />
+      {isLoading && <p>Loading... 🔎</p>}
+      <iframe
+        src="https://drive.google.com/file/d/1CmSczDHuM_wEpEXQGitHmdrUN9mzH8-8/preview"
+        width="640"
+        height="850"
+        onLoad={() => setIsLoading(false)}
+      />
     </>
-  );
+  )
 }
-
 export default Resume

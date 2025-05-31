@@ -11,7 +11,7 @@ function Resume() {
         style={{
           display: 'block',
           width: '100%',
-          height: '100vh',  // fill the full viewport height
+          height: '90vh',   // or '100vh' if you prefer
           border: 'none',
         }}
         allow="autoplay"

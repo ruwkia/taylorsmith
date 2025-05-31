@@ -9,9 +9,9 @@ function Resume() {
       <iframe
         src="https://drive.google.com/file/d/1CmSczDHuM_wEpEXQGitHmdrUN9mzH8-8/preview"
         style={{
-          display: 'block',     // make it fill the container
-          width: '100%',        // full width
-          height: '1000px',     // or '90vh' / whatever you need
+          display: 'block',
+          width: '100%',
+          height: '100vh',  // fill the full viewport height
           border: 'none',
         }}
         allow="autoplay"

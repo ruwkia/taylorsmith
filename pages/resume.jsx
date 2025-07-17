@@ -7,7 +7,7 @@ function Resume() {
     <>
       {isLoading && <p>Loading... 🔎</p>}
       <iframe
-        src="https://drive.google.com/file/d/1CmSczDHuM_wEpEXQGitHmdrUN9mzH8-8/preview"
+        src="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"
         style={{
           display: 'block',
           width: '100%',

@@ -6,30 +6,31 @@ function Resume() {
   return (
     <>
       <div style={{ textAlign: 'center', marginBottom: '1rem' }}>
-        <a
-          href="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            backgroundColor: '#E6E6FA',         // lavender
-            color: '#4B0082',                  // soft indigo
-            padding: '10px 24px',
-            borderRadius: '9999px',            // pill shape
-            textDecoration: 'none',
-            fontSize: '1rem',
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'all 0.2s ease-in-out',
-            display: 'inline-block',
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.transform = 'scale(1.04)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.transform = 'scale(1)';
-          }}
-        >
-          open resume in full screen ↗
-        </a>
+       <a
+  href="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    background: 'linear-gradient(to right, #ffd6e0, #e6e6fa)', // soft pink to lavender
+    color: '#4B0082',
+    padding: '10px 24px',
+    borderRadius: '9999px',
+    textDecoration: 'none',
+    fontSize: '1rem',
+    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+    transition: 'all 0.2s ease-in-out',
+    display: 'inline-block',
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.transform = 'scale(1.04)';
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.transform = 'scale(1)';
+  }}
+>
+  open resume in full screen ↗
+</a>
+
       </div>
 
       {isLoading && <p style={{ textAlign: 'center' }}>Loading... 🔎</p>}

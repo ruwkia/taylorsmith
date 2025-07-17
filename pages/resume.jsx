@@ -9,10 +9,12 @@ function Resume() {
       <iframe
         src="/images/Taylor%20Smith%20Resume%20%2813%29-1.png"
         style={{
-          display: 'block',
           width: '100%',
-          height: '100vh',   // or '100vh' if you prefer
-          border: 'none',
+          maxWidth: '800px',
+          height: 'auto',
+          display: 'block',
+          margin: '0 auto',
+          boxShadow: '0 0 20px rgba(0,0,0,0.1)',
         }}
         allow="autoplay"
         onLoad={() => setIsLoading(false)}

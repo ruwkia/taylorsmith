@@ -7,7 +7,7 @@ function Resume() {
     <>
       {isLoading && <p>Loading... 🔎</p>}
       <iframe
-       src="/images/Taylor%20Smith%20Resume.pdf#view=FitH"
+        src="/images/Taylor%20Smith%20Resume%20%2813%29-1.png"
         style={{
           display: 'block',
           width: '100%',

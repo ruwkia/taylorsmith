@@ -5,11 +5,7 @@ function Resume() {
 
   return (
     <>
-      <div className="mb-4">
-        {isLoading ? (
-          <p>Loading... 🔎</p>
-        )}
-      </div>
+      {isLoading && <p>Loading... 🔎</p>}
       <iframe
         src="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"
         width="100%"

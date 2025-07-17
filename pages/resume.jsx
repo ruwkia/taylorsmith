@@ -11,22 +11,24 @@ function Resume() {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            backgroundColor: '#E6E6FA', // lavender
-            color: '#4B0082', // indigo text
+            backgroundColor: '#E6E6FA',
+            color: '#4B0082',
             padding: '10px 24px',
-            borderRadius: '9999px', // pill shape
+            borderRadius: '9999px',
             textDecoration: 'none',
             fontSize: '1rem',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
             transition: 'all 0.25s ease',
             display: 'inline-block',
           }}
-          onMouseEnter={(e) =>
-            (e.target.style.backgroundColor = '#d8d8f0')
-          }
-          onMouseLeave={(e) =>
-            (e.target.style.backgroundColor = '#E6E6FA')
-          }
+          onMouseEnter={(e) => {
+            e.target.style.backgroundColor = '#d8d8f0';
+            e.target.style.boxShadow = '0 0 12px rgba(186, 134, 252, 0.6)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.backgroundColor = '#E6E6FA';
+            e.target.style.boxShadow = '0 4px 10px rgba(0, 0, 0, 0.08)';
+          }}
         >
           open resume in full screen ↗
         </a>

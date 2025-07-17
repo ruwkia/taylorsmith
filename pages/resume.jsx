@@ -12,17 +12,17 @@ function Resume() {
           rel="noopener noreferrer"
           style={{
             backgroundColor: '#E6E6FA', // lavender
-            color: '#4B0082', // indigo text for contrast
-            padding: '10px 20px',
-            borderRadius: '8px',
-            fontWeight: 'bold',
+            color: '#4B0082', // indigo text
+            padding: '10px 24px',
+            borderRadius: '9999px', // pill shape
             textDecoration: 'none',
             fontSize: '1rem',
-            boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
-            transition: 'background-color 0.3s ease',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'all 0.25s ease',
+            display: 'inline-block',
           }}
           onMouseEnter={(e) =>
-            (e.target.style.backgroundColor = '#d8d8f0') // slightly darker on hover
+            (e.target.style.backgroundColor = '#d8d8f0')
           }
           onMouseLeave={(e) =>
             (e.target.style.backgroundColor = '#E6E6FA')
@@ -32,7 +32,7 @@ function Resume() {
         </a>
       </div>
 
-      {isLoading && <p>Loading... 🔎</p>}
+      {isLoading && <p style={{ textAlign: 'center' }}>Loading... 🔎</p>}
 
       <iframe
         src="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"

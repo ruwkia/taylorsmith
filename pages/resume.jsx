@@ -12,7 +12,7 @@ function Resume() {
   rel="noopener noreferrer"
   style={{
     background: 'linear-gradient(to right, #ffd6e0, #e6e6fa)', // soft pink to lavender
-    color: '#4B0082',
+    color: '#6D4C9A',
     padding: '10px 24px',
     borderRadius: '9999px',
     textDecoration: 'none',

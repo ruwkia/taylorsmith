@@ -7,7 +7,7 @@ function BunnyPuzzle() {
         A cozy puzzle game where players move bunny statues across tiles to solve colorful challenges and collect unique bunnies.
       </p>
 
-      {/* Placeholder image (you can update src when ready) */}
+      {/* Placeholder image (update when ready) */}
       <div style={{ margin: '2rem 0' }}>
         <img 
           src="/images/projects/bunnygame.png" 
@@ -34,7 +34,7 @@ function BunnyPuzzle() {
       <h2 style={{ fontSize: '1.5rem', marginTop: '2rem' }}>play demo</h2>
       <iframe
         frameBorder="0"
-        src="https://itch.io/embed-upload/10190217?color=333333"
+        src="https://cndles.itch.io/space-control"
         allowFullScreen
         width="100%"
         height="600"
@@ -49,38 +49,47 @@ function BunnyPuzzle() {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            backgroundColor: '#E6E6FA',
-            color: '#4B0082',
+            background: 'linear-gradient(to right, #ffd6e0, #e6e6fa)',
+            color: '#6D4C9A',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
+            fontSize: '1rem',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'all 0.25s ease',
+            transition: 'all 0.2s ease-in-out',
             display: 'inline-block',
           }}
-          onMouseEnter={(e) =>
-            (e.target.style.backgroundColor = '#d8d8f0')
-          }
-          onMouseLeave={(e) =>
-            (e.target.style.backgroundColor = '#E6E6FA')
-          }
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'scale(1.04)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'scale(1)';
+          }}
         >
           open on itch.io ↗
         </a>
       </div>
 
-      {/* Back to Projects Button */}
+      {/* Back to Projects Button (light pink, animated) */}
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
-            backgroundColor: '#FFE4E1',
+            background: 'linear-gradient(to right, #ffe4e1, #ffd6e0)',
             color: '#8B0000',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
             fontSize: '0.95rem',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'all 0.2s ease-in-out',
+            display: 'inline-block',
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'scale(1.04)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'scale(1)';
           }}
         >
           ← back to projects

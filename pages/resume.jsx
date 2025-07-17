@@ -28,7 +28,7 @@ function Resume() {
             (e.target.style.backgroundColor = '#E6E6FA')
           }
         >
-          Open resume in full screen ↗
+          open resume in full screen ↗
         </a>
       </div>
 

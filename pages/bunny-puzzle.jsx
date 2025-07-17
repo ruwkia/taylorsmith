@@ -1,22 +1,22 @@
 function BunnyPuzzle() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'monospace' }}>
+    <div style={{ padding: '2rem', fontFamily: 'monospace', fontSize: '1rem' }}>
       <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>bunny puzzles</h1>
       
       <p style={{ marginBottom: '1rem' }}>
         A cozy puzzle game where players move bunny statues across tiles to solve colorful challenges and collect unique bunnies.
       </p>
 
-      {/* Placeholder image (update when ready) */}
+      {/* Rectangle-style image layout */}
       <div style={{ margin: '2rem 0' }}>
         <img 
           src="/images/projects/bunnygame.png" 
           alt="Bunny Puzzle Screenshot" 
           style={{
             width: '100%',
-            maxWidth: '800px',
-            borderRadius: '12px',
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)'
+            maxWidth: '100%',
+            borderRadius: '0',
+            boxShadow: 'none'
           }}
         />
       </div>
@@ -34,15 +34,15 @@ function BunnyPuzzle() {
       <h2 style={{ fontSize: '1.5rem', marginTop: '2rem' }}>play demo</h2>
       <iframe
         frameBorder="0"
-        src="https://cndles.itch.io/space-control"
+        src="https://itch.io/embed-upload/10190217?color=333333"
         allowFullScreen
         width="100%"
         height="600"
         title="Bunny Puzzle"
-        style={{ borderRadius: '12px', boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)' }}
+        style={{ borderRadius: '0', boxShadow: 'none' }}
       ></iframe>
 
-      {/* Open Itch.io Button */}
+      {/* Open Itch.io Button (same as resume style) */}
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <a
           href="https://cndles.itch.io/space-control"
@@ -70,17 +70,17 @@ function BunnyPuzzle() {
         </a>
       </div>
 
-      {/* Back to Projects Button (light pink, animated) */}
+      {/* Back to Projects Button - now pink and animated */}
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
-            background: 'linear-gradient(to right, #ffe4e1, #ffd6e0)',
-            color: '#8B0000',
+            background: 'linear-gradient(to right, #ffe4f0, #ffcfd7)',
+            color: '#b14765',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            fontSize: '0.95rem',
+            fontSize: '1rem',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
             transition: 'all 0.2s ease-in-out',
             display: 'inline-block',

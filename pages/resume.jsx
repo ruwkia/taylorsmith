@@ -5,26 +5,20 @@ function Resume() {
 
   return (
     <>
-      {isLoading && <p>Loading... 🔎</p>}
-      <div
-        style={{
-          width: '100%',
-          maxWidth: '900px',
-          margin: '0 auto',
-          overflow: 'hidden',
-        }}
-      >
-        <img
-          src="/images/Taylor%20Smith%20Resume%20%2813%29-1.png"
-          alt="Taylor Smith Resume"
-          style={{
-            width: '100%',
-            height: 'auto',
-            display: 'block',
-          }}
-          onLoad={() => setIsLoading(false)}
-        />
+      <div className="mb-4">
+        {isLoading ? (
+          <p>Loading... 🔎</p>
+        )}
       </div>
+      <iframe
+        src="https://docs.google.com/document/d/1YdjOy1KYZt5Z5kuVaUidcfv1nVeEkFCNOTl06yKIpH0/preview"
+        width="100%"
+        height="900"
+        allow="autoplay"
+        style={{ border: 'none' }}
+        onLoad={() => setIsLoading(false)}
+        title="Taylor Smith Resume"
+      />
     </>
   );
 }

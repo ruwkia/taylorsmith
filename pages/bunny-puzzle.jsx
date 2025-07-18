@@ -6,7 +6,7 @@ function BunnyPuzzle() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-       Bunny Puzzle is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. Completing levels unlocks new bunny characters to collect!
+       bunny puzzles is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. Completing levels unlocks new bunny characters to collect!
 
       <div style={{ margin: '2rem 0' }}>
         <img 
@@ -27,14 +27,14 @@ function BunnyPuzzle() {
         tools & role
       </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        Created all assets in Adobe Illustrator and built the game in Godot Engine.
+        created all assets in Adobe Illustrator and built the game in Godot Engine.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
         design process
       </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        [You can add sketches, iterations, challenges, or design thoughts here later!]
+        [coming soon!]
       </p>
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>

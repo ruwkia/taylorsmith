@@ -74,10 +74,9 @@ function SpaceControl() {
       </p>
 
       <div style={{
-        display: 'flex',
-        flexDirection: 'column',
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
         gap: '2rem',
-        alignItems: 'center',
         marginBottom: '2rem'
       }}>
         {[
@@ -97,6 +96,8 @@ function SpaceControl() {
             style={{
               width: '100%',
               maxWidth: '800px',
+              margin: '0 auto',
+              gridColumn: 'span 2',
               opacity: 0,
               transform: 'translateY(20px)',
               transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'

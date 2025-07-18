@@ -32,8 +32,36 @@ function SpaceControl() {
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+        design process
+      </p>
+
+      <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
+        this project began with a character idea and quickly expanded into a collection of scripted mini-games tied together through narrative. i scripted all gameplay logic, designed the entire environment, and co-wrote the story — including the concept of unknowingly working for an evil company.
+      </p>
+
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr',
+        gap: '2rem',
+        marginBottom: '2rem'
+      }}>
+        <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%', maxWidth: '600px' }} />
+        <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%', maxWidth: '600px' }} />
+        <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%', maxWidth: '600px' }} />
+        <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%', maxWidth: '600px' }} />
+        <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+        <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+        <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+      </div>
+
+      <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
+        each scene was created to balance visual storytelling with interactive pressure — blending eerie overlays, distorted interfaces, and decision-making elements into one short but unsettling game.
+      </p>
+
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
         play the game!
       </p>
+
       <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
           width="552"

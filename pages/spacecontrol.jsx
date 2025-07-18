@@ -1,39 +1,52 @@
 function SpaceControl() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'IBM Plex Mono', fontSize: '1rem', color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontWeight: '700', marginBottom: '1rem' }}>space control</h1>
+    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
+      <h1 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1rem' }}>
+        space control
+      </h1>
 
-      <p style={{ marginBottom: '1rem' }}>
-        A short story game about morality and complacency. Repair a broken ship while grappling with questions of what’s worth saving.
+      <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
+        Face the battle of complacency and morality as you repair your broken spaceship. This short narrative game explores decision-making under pressure.
       </p>
 
       <div style={{ margin: '2rem 0' }}>
-        <img 
-          src="/images/projects/space_control.png" 
-          alt="Space Control Screenshot" 
-          style={{ width: '100%', maxWidth: '800px' }}
+        <img
+          src="/images/projects/space_control.png"
+          alt="Space Control Screenshot"
+          style={{
+            width: '100%',
+            maxWidth: '800px',
+            borderRadius: '0',
+            boxShadow: 'none',
+            display: 'block',
+            margin: '0 auto'
+          }}
         />
       </div>
 
-      <h2 style={{ fontWeight: '700', marginTop: '2rem' }}>tools & role</h2>
-      <p style={{ marginBottom: '1rem' }}>
-        Created all assets in Adobe Illustrator and developed the game using Godot Engine.
+      <h2 style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+        tools & role
+      </h2>
+      <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
+        Wrote, designed, and programmed the game in Godot Engine.
       </p>
 
-      <h2 style={{ fontWeight: '700', marginTop: '2rem' }}>play demo</h2>
-      <div style={{ margin: '1rem 0' }}>
-        <iframe 
-          width="552" 
-          height="167" 
-          frameBorder="0" 
+      <h2 style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+        play demo
+      </h2>
+      <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
+        <iframe
+          width="552"
+          height="167"
+          frameBorder="0"
           src="https://itch.io/embed/2690772"
           title="Space Control"
+          style={{ border: 'none', maxWidth: '100%' }}
         >
           <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
         </iframe>
       </div>
 
-      {/* Open on Itch.io Button */}
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <a
           href="https://cndles.itch.io/space-control"
@@ -41,11 +54,10 @@ function SpaceControl() {
           rel="noopener noreferrer"
           style={{
             backgroundColor: '#E6E6FA',
-            color: '#C8A2C8',
+            color: '#BFA7C5',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            fontFamily: 'IBM Plex Mono',
             fontSize: '1rem',
             display: 'inline-block'
           }}
@@ -54,17 +66,15 @@ function SpaceControl() {
         </a>
       </div>
 
-      {/* Back to Projects Button */}
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
-            backgroundColor: '#FEC2AE',
-            color: '#F8AFA0',
+            backgroundColor: '#FED4EA',
+            color: '#EBA1C2',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            fontFamily: 'IBM Plex Mono',
             fontSize: '1rem',
             display: 'inline-block'
           }}

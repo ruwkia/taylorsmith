@@ -1,13 +1,12 @@
 function BunnyPuzzle() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'monospace', fontSize: '1rem', lineHeight: '1.6' }}>
-      <h1 style={{ fontWeight: 'bold', marginBottom: '1rem' }}>bunny puzzles</h1>
+      <p style={{ fontWeight: 'bold', marginBottom: '1rem' }}>bunny puzzles</p>
 
       <p style={{ marginBottom: '1rem' }}>
         A cozy puzzle game where players move bunny statues across tiles to solve colorful challenges and collect unique bunnies.
       </p>
 
-      {/* Placeholder image */}
       <div style={{ margin: '2rem 0' }}>
         <img
           src="/images/projects/bunnygame.png"

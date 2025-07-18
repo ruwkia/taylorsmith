@@ -1,78 +1,79 @@
-import React from "react";
-import Link from "next/link";
-
-export default function SpaceControl() {
+function SpaceControl() {
   return (
-    <div className="body" style={{ padding: "40px" }}>
-      <h1 style={{ fontWeight: "bold", fontFamily: "'IBM Plex Mono'", fontSize: "20px" }}>
-        space control
-      </h1>
+    <div style={{ padding: '2rem', fontFamily: 'IBM Plex Mono', fontSize: '1rem', color: 'rgba(0, 0, 0, 0.85)' }}>
+      <h1 style={{ fontWeight: '700', marginBottom: '1rem' }}>space control</h1>
 
-      <p style={{ fontFamily: "'IBM Plex Mono'", fontSize: "16px", marginTop: "16px" }}>
-        Face the battle of complacency and morality as you repair your broken spaceship in this short narrative sci-fi game.
+      <p style={{ marginBottom: '1rem' }}>
+        A short story game about morality and complacency. Repair a broken ship while grappling with questions of what’s worth saving.
       </p>
 
-      <img
-        src="/images/projects/space_control.png"
-        alt="space control"
-        style={{ width: "100%", height: "auto", marginTop: "24px", borderRadius: "0px", boxShadow: "none" }}
-      />
+      <div style={{ margin: '2rem 0' }}>
+        <img 
+          src="/images/projects/space_control.png" 
+          alt="Space Control Screenshot" 
+          style={{ width: '100%', maxWidth: '800px' }}
+        />
+      </div>
 
-      <h2
-        style={{
-          fontWeight: "bold",
-          fontFamily: "'IBM Plex Mono'",
-          fontSize: "16px",
-          marginTop: "40px",
-        }}
-      >
-        tools & role
-      </h2>
-      <p style={{ fontFamily: "'IBM Plex Mono'", fontSize: "16px", marginTop: "8px" }}>
-        Wrote the game narrative and developed it using Godot Engine.
+      <h2 style={{ fontWeight: '700', marginTop: '2rem' }}>tools & role</h2>
+      <p style={{ marginBottom: '1rem' }}>
+        Created all assets in Adobe Illustrator and developed the game using Godot Engine.
       </p>
 
-      <h2
-        style={{
-          fontWeight: "bold",
-          fontFamily: "'IBM Plex Mono'",
-          fontSize: "16px",
-          marginTop: "40px",
-        }}
-      >
-        play demo
-      </h2>
-
-      <div style={{ marginTop: "16px" }}>
-        <iframe
-          frameBorder="0"
+      <h2 style={{ fontWeight: '700', marginTop: '2rem' }}>play demo</h2>
+      <div style={{ margin: '1rem 0' }}>
+        <iframe 
+          width="552" 
+          height="167" 
+          frameBorder="0" 
           src="https://itch.io/embed/2690772"
-          width="100%"
-          height="167"
+          title="Space Control"
         >
           <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
         </iframe>
       </div>
 
-      <div style={{ marginTop: "40px" }}>
-        <Link href="/projects">
-          <button
-            style={{
-              marginTop: "24px",
-              padding: "12px 20px",
-              backgroundColor: "#FEC2AE",
-              borderRadius: "9999px",
-              border: "none",
-              fontFamily: "'IBM Plex Mono'",
-              fontSize: "16px",
-              color: "#d87b72",
-              cursor: "pointer",
-            }}
-          >
-            ← back to projects
-          </button>
-        </Link>
+      {/* Open on Itch.io Button */}
+      <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+        <a
+          href="https://cndles.itch.io/space-control"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            backgroundColor: '#E6E6FA',
+            color: '#C8A2C8',
+            padding: '10px 24px',
+            borderRadius: '9999px',
+            textDecoration: 'none',
+            fontFamily: 'IBM Plex Mono',
+            fontSize: '1rem',
+            display: 'inline-block'
+          }}
+        >
+          play on itch.io ↗
+        </a>
+      </div>
+
+      {/* Back to Projects Button */}
+      <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+        <a
+          href="/projects"
+          style={{
+            backgroundColor: '#FEC2AE',
+            color: '#F8AFA0',
+            padding: '10px 24px',
+            borderRadius: '9999px',
+            textDecoration: 'none',
+            fontFamily: 'IBM Plex Mono',
+            fontSize: '1rem',
+            display: 'inline-block'
+          }}
+        >
+          ← back to projects
+        </a>
       </div>
     </div>
   );
 }
+
+export default SpaceControl;

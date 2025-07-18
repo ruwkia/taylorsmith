@@ -1,7 +1,34 @@
+import { useEffect } from 'react';
+
+function useFadeInOnScroll() {
+  useEffect(() => {
+    const elements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = 1;
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    elements.forEach(el => observer.observe(el));
+
+    return () => {
+      elements.forEach(el => observer.unobserve(el));
+    };
+  }, []);
+}
+
 function SpaceControl() {
+  useFadeInOnScroll();
+
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace" }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         space control
       </h1>
 
@@ -11,15 +38,17 @@ function SpaceControl() {
 
       <div style={{ margin: '2rem 0' }}>
         <img
+          className="fade-in"
           src="/images/projects/space_control.png"
           alt="Space Control Screenshot"
           style={{
             width: '100%',
             maxWidth: '800px',
-            borderRadius: '0',
-            boxShadow: 'none',
             display: 'block',
-            margin: '0 auto'
+            margin: '0 auto',
+            opacity: 0,
+            transform: 'translateY(20px)',
+            transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
           }}
         />
       </div>
@@ -28,7 +57,7 @@ function SpaceControl() {
         tools & role
       </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        wrote, designed, and programmed the game in Godot Engine.
+        wrote, designed, and programmed the game in Godot Engine. environments were modeled and textured in Blender.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
@@ -45,13 +74,30 @@ function SpaceControl() {
         gap: '2rem',
         marginBottom: '2rem'
       }}>
-        <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
-        <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
-        <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+        {[
+          'spacecontrolhope.png',
+          'spacecontrolleave.png',
+          'spacecontroltopsecret.png',
+          'spacecontrolsus.png',
+          'spacecontrolpuzzle.png',
+          'spacecontrolslider.png',
+          'spacecontrolemail.png'
+        ].map((file, index) => (
+          <img
+            key={file}
+            className="fade-in"
+            src={`/images/artworks/${file}`}
+            alt={file.replace(/spacecontrol|\.png/g, '').replace(/([a-z])([A-Z])/g, '$1 $2').trim()}
+            style={{
+              width: '100%',
+              maxWidth: '800px',
+              gridColumn: index >= 4 ? 'span 2' : undefined,
+              opacity: 0,
+              transform: 'translateY(20px)',
+              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
+            }}
+          />
+        ))}
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>

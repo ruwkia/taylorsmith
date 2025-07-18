@@ -1,7 +1,7 @@
 function BunnyPuzzle() {
   return (
     <div style={{ padding: '2rem', fontFamily: 'monospace', fontSize: '1rem', color: '#000' }}>
-      <h1 style={{ fontWeight: 'bold', marginBottom: '1rem' }}>bunny puzzles</h1>
+      <p style={{ fontWeight: 'bold', marginBottom: '1rem' }}>bunny puzzles</p>
 
       <p style={{ marginBottom: '1rem' }}>
         A cozy puzzle game where players move bunny statues across tiles to solve colorful challenges and collect unique bunnies.
@@ -19,17 +19,17 @@ function BunnyPuzzle() {
         />
       </div>
 
-      <h2 style={{ fontWeight: 'bold', marginTop: '2rem' }}>tools & role</h2>
+      <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>tools & role</p>
       <p style={{ marginBottom: '1rem' }}>
         Designed puzzle logic, created art in Procreate, and implemented movement in Godot Engine.
       </p>
 
-      <h2 style={{ fontWeight: 'bold', marginTop: '2rem' }}>design process</h2>
+      <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>design process</p>
       <p style={{ marginBottom: '1rem' }}>
         [You can add sketches, iterations, challenges, or design thoughts here later!]
       </p>
 
-      <h2 style={{ fontWeight: 'bold', marginTop: '2rem' }}>play demo</h2>
+      <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>play demo</p>
       <iframe
         frameBorder="0"
         src="https://itch.io/embed/2690772"
@@ -44,6 +44,7 @@ function BunnyPuzzle() {
         <a href="https://cndles.itch.io/space-control">Play Bunny Puzzle on itch.io</a>
       </iframe>
 
+      {/* Open on Itch.io Button */}
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <a
           href="https://cndles.itch.io/space-control"
@@ -51,7 +52,7 @@ function BunnyPuzzle() {
           rel="noopener noreferrer"
           style={{
             backgroundColor: '#E6E6FA', // lavender
-            color: '#4B0082',
+            color: '#B495D2', // lighter purple
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
@@ -70,12 +71,13 @@ function BunnyPuzzle() {
         </a>
       </div>
 
+      {/* Back to Projects Button */}
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
             backgroundColor: '#FFD6E0', // light pink
-            color: '#C71585',
+            color: '#FFB6C1', // lighter pink text
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',

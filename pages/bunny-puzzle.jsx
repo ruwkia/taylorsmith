@@ -11,7 +11,7 @@ function BunnyPuzzle() {
 
       <div style={{ margin: '2rem 0' }}>
         <img 
-          src="/images/projects/bunnygame.png"  
+          src="/images/artworks/IMG_0245.png"
           alt="Bunny Puzzle Screenshot" 
           style={{
             width: '100%',
@@ -61,6 +61,7 @@ function BunnyPuzzle() {
   <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '600px' }} />
   <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/projects/bunnygame.png" alt="Sand biome screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   

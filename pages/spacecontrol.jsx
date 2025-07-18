@@ -1,53 +1,40 @@
 function SpaceControl() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'IBM Plex Mono' }}>
-      <h1 style={{ fontWeight: 'bold', fontSize: '1.5rem', marginBottom: '1rem' }}>
-        space control
-      </h1>
+    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", fontSize: '16px' }}>
+      <h1 style={{ fontWeight: 'bold', marginBottom: '1rem' }}>space control</h1>
 
       <p style={{ marginBottom: '1.5rem' }}>
         Face the battle of complacency and morality as you repair your broken spaceship in this short narrative sci-fi game.
       </p>
 
-      <div style={{ margin: '2rem 0' }}>
-        <img 
-          src="/images/projects/space_control.png" 
-          alt="Space Control Screenshot" 
-          style={{
-            width: '100%',
-            maxWidth: '800px',
-            borderRadius: '0px'
-          }}
+      {/* Game Screenshot */}
+      <div style={{ marginBottom: '2rem' }}>
+        <img
+          src="/images/projects/space_control.png"
+          alt="Space Control Screenshot"
+          style={{ width: '100%', maxWidth: '800px' }}
         />
       </div>
 
-      <h2 style={{ fontWeight: 'bold', fontSize: '1.5rem', marginTop: '2rem' }}>
-        tools & role
-      </h2>
+      <h2 style={{ fontWeight: 'bold', marginBottom: '0.5rem' }}>tools & role</h2>
       <p style={{ marginBottom: '2rem' }}>
         Wrote the game narrative and developed it using Godot Engine.
       </p>
 
-      <h2 style={{ fontWeight: 'bold', fontSize: '1.5rem', marginTop: '2rem' }}>
-        play demo
-      </h2>
-
-      {/* Embedded itch.io iframe */}
-      <div style={{ margin: '1.5rem 0' }}>
-        <iframe 
-          title="Space Control Embed"
-          frameBorder="0"
-          src="https://itch.io/embed/2690772" 
-          width="100%" 
-          height="167" 
-          style={{ borderRadius: '0px' }}
-        >
-          <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
-        </iframe>
-      </div>
+      <h2 style={{ fontWeight: 'bold', marginBottom: '1rem' }}>play demo</h2>
+      <iframe
+        width="100%"
+        height="167"
+        frameBorder="0"
+        src="https://itch.io/embed/2690772"
+        title="Space Control"
+        style={{ marginBottom: '2rem' }}
+      >
+        <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
+      </iframe>
 
       {/* Open Itch.io Button */}
-      <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+      <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
         <a
           href="https://cndles.itch.io/space-control"
           target="_blank"
@@ -58,33 +45,28 @@ function SpaceControl() {
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            boxShadow: 'none',
             transition: 'all 0.25s ease',
-            display: 'inline-block',
             fontSize: '0.95rem',
           }}
-          onMouseEnter={(e) => (e.target.style.opacity = '0.7')}
-          onMouseLeave={(e) => (e.target.style.opacity = '1')}
+          onMouseEnter={(e) => (e.target.style.opacity = 0.7)}
+          onMouseLeave={(e) => (e.target.style.opacity = 1)}
         >
           open on itch.io ↗
         </a>
       </div>
 
       {/* Back to Projects Button */}
-      <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+      <div style={{ textAlign: 'center' }}>
         <a
           href="/projects"
           style={{
             backgroundColor: '#FEC2AE',
-            color: '#F89DA0',
+            color: '#F19797',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            boxShadow: 'none',
             fontSize: '0.95rem',
           }}
-          onMouseEnter={(e) => (e.target.style.opacity = '0.7')}
-          onMouseLeave={(e) => (e.target.style.opacity = '1')}
         >
           ← back to projects
         </a>

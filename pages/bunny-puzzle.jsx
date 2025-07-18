@@ -42,7 +42,7 @@ function BunnyPuzzle() {
   marginBottom: '2rem'
 }}>
   
-  <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '300px', margin: '0 auto', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '200px', margin: '0 auto', gridColumn: 'span 2' }} />
   <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
 </div>

@@ -1,7 +1,7 @@
 function SpaceControl() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: '700', marginBottom: '1rem' }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         space control
       </h1>
 
@@ -24,16 +24,16 @@ function SpaceControl() {
         />
       </div>
 
-      <h2 style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
         tools & role
-      </h2>
+      </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         Wrote, designed, and programmed the game in Godot Engine.
       </p>
 
-      <h2 style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
         play demo
-      </h2>
+      </p>
       <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
           width="552"

@@ -28,12 +28,7 @@ function SpaceControl() {
 
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{
-        fontSize: '1rem',
-        fontWeight: '700',
-        marginBottom: '1rem',
-        fontFamily: "'IBM Plex Mono', monospace"
-      }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         space control
       </h1>
 

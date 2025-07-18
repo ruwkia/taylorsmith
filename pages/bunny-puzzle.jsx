@@ -48,7 +48,14 @@ function BunnyPuzzle() {
             borderRadius: '9999px',
             textDecoration: 'none',
             fontSize: '1rem',
-            display: 'inline-block'
+            display: 'inline-block',
+            transition: 'all 0.2s ease-in-out'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.opacity = '0.8';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.opacity = '1';
           }}
         >
           ← back to projects

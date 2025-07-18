@@ -82,7 +82,7 @@ function SpaceControl() {
           'spacecontrolpuzzle.png',
           'spacecontrolslider.png',
           'spacecontrolemail.png'
-        ].map((file, index) => (
+        ].map((file) => (
           <img
             key={file}
             className="fade-in"
@@ -91,7 +91,8 @@ function SpaceControl() {
             style={{
               width: '100%',
               maxWidth: '800px',
-              gridColumn: index >= 4 ? 'span 2' : undefined,
+              margin: '0 auto',
+              gridColumn: 'span 2',
               opacity: 0,
               transform: 'translateY(20px)',
               transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'

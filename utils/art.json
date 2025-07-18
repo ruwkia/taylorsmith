@@ -84,10 +84,7 @@
     {
         "title": "posters",
         "list": [
-            {
-                "title": "bitcount",
-                "images": ["/images/artworks/bitcount.png"]
-            },
+           
             {
                 "title": "calluna",
                 "images": ["/images/artworks/calluna.png"]

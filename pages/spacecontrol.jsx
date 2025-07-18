@@ -28,9 +28,15 @@ function SpaceControl() {
 
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
-        space control
-      </h1>
+    <h1 style={{
+  fontSize: '1rem',
+  fontWeight: '700',
+  marginBottom: '1rem',
+  fontFamily: "'IBM Plex Mono', monospace"
+}}>
+  space control
+</h1>
+
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         face the battle of complacency and morality as you repair your broken spaceship. this short narrative game explores decision-making under pressure.
@@ -68,38 +74,32 @@ function SpaceControl() {
         this project began with a character idea and quickly expanded into a collection of scripted mini-games tied together through narrative. i scripted all gameplay logic, designed the entire environment, and co-wrote the story — including the concept of unknowingly working for an evil company.
       </p>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr',
-        gap: '2rem',
-        marginBottom: '2rem'
-      }}>
-        {[
-          'spacecontrolhope.png',
-          'spacecontrolleave.png',
-          'spacecontroltopsecret.png',
-          'spacecontrolsus.png',
-          'spacecontrolpuzzle.png',
-          'spacecontrolslider.png',
-          'spacecontrolemail.png'
-        ].map((file) => (
-          <img
-            key={file}
-            className="fade-in"
-            src={`/images/artworks/${file}`}
-            alt={file.replace(/spacecontrol|\.png/g, '').replace(/([a-z])([A-Z])/g, '$1 $2').trim()}
-            style={{
-              width: '100%',
-              maxWidth: '800px',
-              margin: '0 auto',
-              gridColumn: 'span 2',
-              opacity: 0,
-              transform: 'translateY(20px)',
-              transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
-            }}
-          />
-        ))}
-      </div>
+<div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', alignItems: 'center', marginBottom: '2rem' }}>
+  {[
+    'spacecontrolhope.png',
+    'spacecontrolleave.png',
+    'spacecontroltopsecret.png',
+    'spacecontrolsus.png',
+    'spacecontrolpuzzle.png',
+    'spacecontrolslider.png',
+    'spacecontrolemail.png'
+  ].map((file) => (
+    <img
+      key={file}
+      className="fade-in"
+      src={`/images/artworks/${file}`}
+      alt={file.replace(/spacecontrol|\.png/g, '').replace(/([a-z])([A-Z])/g, '$1 $2').trim()}
+      style={{
+        width: '100%',
+        maxWidth: '800px',
+        opacity: 0,
+        transform: 'translateY(20px)',
+        transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'
+      }}
+    />
+  ))}
+</div>
+
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
         each scene was created to balance visual storytelling with interactive pressure — blending eerie overlays, distorted interfaces, and decision-making elements into one short but unsettling game.

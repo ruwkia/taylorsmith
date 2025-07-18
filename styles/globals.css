@@ -47,11 +47,8 @@ h2 {
 }
 
 .card:hover {
-  box-shadow:
-    8px 8px 0px 0px #E6E6FA, /* lavender */
-    12px 12px 0px 0px #FED4EA; /* soft pink */
+  box-shadow: 8px 8px 0px 0px #BFA7C5;
 }
-
 
 .body {
   padding-bottom: 20vh;

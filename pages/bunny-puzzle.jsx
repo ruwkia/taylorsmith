@@ -41,10 +41,10 @@ function BunnyPuzzle() {
   gap: '2rem',
   marginBottom: '2rem'
 }}>
-  <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%' }} />
-  <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%' }} />
-  <img src="/images/artworks/bunnygame.png" alt="Main puzzle screen" style={{ width: '100%' }} />
-  <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%' }} />
+  <img src="/images/artworks/bunnygame.png" alt="Bunny Puzzle Screenshot" style={{ width: '100%', maxWidth: '600px' }} />
+  <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '300px', justifySelf: 'center' }} />
+  <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
 </div>
 
 <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
@@ -57,16 +57,17 @@ function BunnyPuzzle() {
   gap: '2rem',
   marginBottom: '2rem'
 }}>
-  <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%' }} />
-  <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%' }} />
-  <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%' }} />
-  <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%' }} />
-  <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%' }} />
+  <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '600px' }} />
+  <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '600px' }} />
+  <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
 </div>
 
 <p style={{ fontSize: '1rem' }}>
   additional loading screens and gameplay elements were prototyped to reflect the soft and cozy aesthetic. multiple color schemes and animation styles were tested to help bring the game’s tone to life.
 </p>
+
 
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>

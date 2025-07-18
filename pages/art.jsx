@@ -78,7 +78,7 @@ export default function Art() {
             onClick={() => setSelectedType(type)}
             className={
               selectedType === type
-                ? 'px-3 py-1 bg-black text-white rounded-md text-sm font-mono'
+                ? 'px-3 py-1 bg-[#EBA1C2] text-[#FED4EA] rounded-md text-sm font-mono'
                 : 'px-3 py-1 bg-pink-200 text-black rounded-md text-sm font-mono'
             }
           >

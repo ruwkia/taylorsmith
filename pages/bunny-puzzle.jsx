@@ -6,7 +6,7 @@ function BunnyPuzzle() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-       bunny puzzles is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. Completing levels unlocks new bunny characters to collect!
+       bunny puzzles is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. completing levels unlocks new bunny characters to collect!
 </p>
       <div style={{ margin: '2rem 0' }}>
         <img 

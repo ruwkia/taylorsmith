@@ -6,8 +6,7 @@ function BunnyPuzzle() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        Bunny Puzzle is a mobile puzzle game where players rotate and connect tubes to guide flowing water before the timer runs out—or before it spills! Each completed challenge unlocks a new collectible bunny character, adding charm and replayability to the gameplay.
-      </p>
+       Bunny Puzzle is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. Completing levels unlocks new bunny characters to collect!
 
       <div style={{ margin: '2rem 0' }}>
         <img 

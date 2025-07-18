@@ -11,7 +11,7 @@ function BunnyPuzzle() {
 
       <div style={{ margin: '2rem 0' }}>
         <img 
-          src="/images/projects/bunnygame.png" 
+          src="/images/artworks/bunnygame.png" 
           alt="Bunny Puzzle Screenshot" 
           style={{
             width: '100%',
@@ -40,14 +40,14 @@ function BunnyPuzzle() {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', alignItems: 'center', marginBottom: '2rem' }}>
         <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/bunnyinfo.png" alt="Early bunny info sketch" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/bunnyshop.png" alt="Shop screen UI" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '800px' }} />
-        <img src="/images/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyinfo.png" alt="Early bunny info sketch" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyshop.png" alt="Shop screen UI" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '800px' }} />
       </div>
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>

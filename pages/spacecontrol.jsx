@@ -1,38 +1,52 @@
 function SpaceControl() {
   return (
-    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace" }}>
-      {/* Page Heading */}
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1rem' }}>
+    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace" }}>
         space control
       </h1>
 
-      {/* Description */}
-      <p style={{ marginBottom: '1.5rem', fontSize: '1rem', lineHeight: '1.6' }}>
-        Face the battle of complacency and morality as you repair your broken spaceship. 
-        Space Control is a short narrative game that explores isolation, choice, and emotional consequence.
+      <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
+        Face the battle of complacency and morality as you repair your broken spaceship. This short narrative game explores decision-making under pressure.
       </p>
 
-      {/* Embedded Itch.io Game */}
-      <div style={{ margin: '2rem 0', textAlign: 'center' }}>
+      <div style={{ margin: '2rem 0' }}>
+        <img
+          src="/images/projects/space_control.png"
+          alt="Space Control Screenshot"
+          style={{
+            width: '100%',
+            maxWidth: '800px',
+            borderRadius: '0',
+            boxShadow: 'none',
+            display: 'block',
+            margin: '0 auto'
+          }}
+        />
+      </div>
+
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+        tools & role
+      </p>
+      <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
+        Wrote, designed, and programmed the game in Godot Engine.
+      </p>
+
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
+        play demo
+      </p>
+      <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
-          title="Space Control Game"
           width="552"
           height="167"
           frameBorder="0"
           src="https://itch.io/embed/2690772"
-          style={{ border: 'none' }}
+          title="Space Control"
+          style={{ border: 'none', maxWidth: '100%' }}
         >
-          <a href="https://cndles.itch.io/space-control">Play Space Control on itch.io</a>
+          <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
         </iframe>
       </div>
 
-      {/* Tools & Role Section */}
-      <h2 style={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '2rem' }}>tools & role</h2>
-      <p style={{ marginBottom: '1.5rem', fontSize: '1rem', lineHeight: '1.6' }}>
-        Created all visual assets in Adobe Illustrator and developed the game in Godot Engine.
-      </p>
-
-      {/* Play on Itch.io Button */}
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <a
           href="https://cndles.itch.io/space-control"
@@ -40,32 +54,29 @@ function SpaceControl() {
           rel="noopener noreferrer"
           style={{
             backgroundColor: '#E6E6FA',
-            color: '#D8BFD8',
+            color: '#BFA7C5',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            display: 'inline-block',
             fontSize: '1rem',
-            fontWeight: 'bold',
+            display: 'inline-block'
           }}
         >
           play on itch.io ↗
         </a>
       </div>
 
-      {/* Back to Projects Button */}
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
-            backgroundColor: '#FEC2AE',
-            color: '#F8AFA0',
+            backgroundColor: '#FED4EA',
+            color: '#EBA1C2',
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
-            fontSize: '0.95rem',
-            fontWeight: 'bold',
-            display: 'inline-block',
+            fontSize: '1rem',
+            display: 'inline-block'
           }}
         >
           ← back to projects

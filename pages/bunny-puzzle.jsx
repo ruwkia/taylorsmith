@@ -37,6 +37,19 @@ function BunnyPuzzle() {
         [coming soon!]
       </p>
 
+      <div style={{ marginBottom: '2rem' }}>
+  <img 
+    src="/images/artworks/Artboard 1.png" 
+    alt="Design process image" 
+    style={{
+      width: '100%',
+      maxWidth: '800px',
+      display: 'block',
+      margin: '0 auto'
+    }}
+  />
+</div>
+
 <div style={{ textAlign: 'center', marginTop: '2rem' }}>
   <a
     href="/projects"

@@ -12,7 +12,7 @@ function Resume() {
           rel="noopener noreferrer"
           style={{
             background: 'linear-gradient(to right, #E6E6FA, #FED4EA)', // lavender to soft pink
-            color: '#BFA7C5', // soft purple text
+            color: '#9D7BA5', // slightly darker purple for better contrast
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',

@@ -6,7 +6,7 @@ function BunnyPuzzle() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        bunny puzzles is a cozy mobile game where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. completing levels unlocks new bunny characters to collect!
+        bunny puzzles is a cozy mobile game concept where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. completing levels unlocks new bunny characters to collect!
       </p>
 
       <div style={{ margin: '2rem 0' }}>
@@ -32,7 +32,7 @@ function BunnyPuzzle() {
       </p>
 
 <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-  here’s a peek at the design process, from concept sketches to animated loading screens:
+  here’s a peek at the design process, from early level mockups to interface concepts and loading animations:
 </p>
 
 <div style={{
@@ -48,7 +48,7 @@ function BunnyPuzzle() {
 </div>
 
 <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
-  the game opens with a short story about a bunny who travels between biomes to repair leaky water systems. players must rotate pipes to guide water to the goal — but act fast before it spills! the app icon and interface were created first, followed by layout testing and visual design of characters, shop screens, and biomes.
+   the project began with biome-level art concepts, exploring different environments the bunny could travel through. these were followed by UI designs for a potential home screen, then animation tests and a shop interface to imagine how the game might feel in motion.
 </p>
 
 <div style={{

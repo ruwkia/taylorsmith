@@ -11,7 +11,7 @@ function BunnyPuzzle() {
 
       <div style={{ margin: '2rem 0' }}>
         <img 
-          src="/images/artworks/bunnygame.png" 
+          src="/images/projects/bunnygame.png"  
           alt="Bunny Puzzle Screenshot" 
           style={{
             width: '100%',
@@ -41,7 +41,7 @@ function BunnyPuzzle() {
   gap: '2rem',
   marginBottom: '2rem'
 }}>
-  <img src="/images/artworks/bunnygame.png" alt="Bunny Puzzle Screenshot" style={{ width: '100%', maxWidth: '600px' }} />
+  
   <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '300px', justifySelf: 'center' }} />
   <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
@@ -57,11 +57,13 @@ function BunnyPuzzle() {
   gap: '2rem',
   marginBottom: '2rem'
 }}>
-  <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
-  <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
   <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '600px' }} />
   <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '600px' }} />
   <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '600px' }} />
+  <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+  
 </div>
 
 <p style={{ fontSize: '1rem' }}>

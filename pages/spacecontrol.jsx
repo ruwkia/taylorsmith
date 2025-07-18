@@ -1,7 +1,7 @@
 function SpaceControl() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '400', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace', WebkitTextStroke: 'none' }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         space control
       </h1>
 
@@ -52,15 +52,7 @@ function SpaceControl() {
           href="https://cndles.itch.io/space-control"
           target="_blank"
           rel="noopener noreferrer"
-          style={{
-            backgroundColor: '#E6E6FA',
-            color: '#BFA7C5',
-            padding: '10px 24px',
-            borderRadius: '9999px',
-            textDecoration: 'none',
-            fontSize: '1rem',
-            display: 'inline-block'
-          }}
+          className="button lavender-button hover:opacity-50 transition-opacity duration-300"
         >
           play on itch.io ↗
         </a>
@@ -69,15 +61,7 @@ function SpaceControl() {
       <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
-          style={{
-            backgroundColor: '#FED4EA',
-            color: '#EBA1C2',
-            padding: '10px 24px',
-            borderRadius: '9999px',
-            textDecoration: 'none',
-            fontSize: '1rem',
-            display: 'inline-block'
-          }}
+          className="button pink-button hover:opacity-50 transition-opacity duration-300"
         >
           ← back to projects
         </a>

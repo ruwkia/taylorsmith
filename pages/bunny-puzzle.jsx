@@ -1,34 +1,45 @@
 function BunnyPuzzle() {
   return (
-    <div style={{ padding: '2rem', fontFamily: 'monospace', fontSize: '1rem', color: '#000' }}>
+    <div
+      style={{
+        padding: '2rem',
+        fontFamily: '"IBM Plex Mono", monospace',
+        fontSize: '1rem',
+        color: 'rgba(0, 0, 0, 0.85)',
+      }}
+    >
       <p style={{ fontWeight: 'bold', marginBottom: '1rem' }}>bunny puzzles</p>
 
       <p style={{ marginBottom: '1rem' }}>
         A cozy puzzle game where players move bunny statues across tiles to solve colorful challenges and collect unique bunnies.
       </p>
 
+      {/* Image (keep rectangular) */}
       <div style={{ margin: '2rem 0' }}>
-        <img 
-          src="/images/projects/bunnygame.png" 
-          alt="Bunny Puzzle Screenshot" 
+        <img
+          src="/images/projects/bunnygame.png"
+          alt="Bunny Puzzle Screenshot"
           style={{
             width: '100%',
             maxWidth: '800px',
-            display: 'block'
+            display: 'block',
           }}
         />
       </div>
 
+      {/* Tools & Role */}
       <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>tools & role</p>
       <p style={{ marginBottom: '1rem' }}>
         Designed puzzle logic, created art in Procreate, and implemented movement in Godot Engine.
       </p>
 
+      {/* Design Process */}
       <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>design process</p>
       <p style={{ marginBottom: '1rem' }}>
         [You can add sketches, iterations, challenges, or design thoughts here later!]
       </p>
 
+      {/* Demo */}
       <p style={{ fontWeight: 'bold', marginTop: '2rem' }}>play demo</p>
       <iframe
         frameBorder="0"
@@ -52,7 +63,7 @@ function BunnyPuzzle() {
           rel="noopener noreferrer"
           style={{
             backgroundColor: '#E6E6FA', // lavender
-            color: '#B495D2', // lighter purple
+            color: '#B495D2', // lighter purple text
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',
@@ -77,7 +88,7 @@ function BunnyPuzzle() {
           href="/projects"
           style={{
             backgroundColor: '#FFD6E0', // light pink
-            color: '#FFB6C1', // lighter pink text
+            color: '#E895A5', // slightly darker pink text
             padding: '10px 24px',
             borderRadius: '9999px',
             textDecoration: 'none',

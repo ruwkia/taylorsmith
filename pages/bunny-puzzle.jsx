@@ -37,29 +37,31 @@ function BunnyPuzzle() {
         [coming soon!]
       </p>
 
-      <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-        <a
-          href="/projects"
-          style={{
-            backgroundColor: '#FED4EA',
-            color: '#EBA1C2',
-            padding: '10px 24px',
-            borderRadius: '9999px',
-            textDecoration: 'none',
-            fontSize: '1rem',
-            display: 'inline-block',
-            transition: 'all 0.2s ease-in-out'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.opacity = '0.8';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.opacity = '1';
-          }}
-        >
-          ← back to projects
-        </a>
-      </div>
+<div style={{ textAlign: 'center', marginTop: '2rem' }}>
+  <a
+    href="/projects"
+    style={{
+      backgroundColor: '#FED4EA', // light pink background
+      color: '#EBA1C2',           // soft pink text
+      padding: '10px 24px',
+      borderRadius: '9999px',
+      textDecoration: 'none',
+      fontSize: '1rem',
+      display: 'inline-block',
+      boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+      transition: 'all 0.2s ease-in-out'
+    }}
+    onMouseEnter={(e) => {
+      e.target.style.transform = 'scale(1.04)';
+    }}
+    onMouseLeave={(e) => {
+      e.target.style.transform = 'scale(1)';
+    }}
+  >
+    ← back to projects
+  </a>
+</div>
+
     </div>
   );
 }

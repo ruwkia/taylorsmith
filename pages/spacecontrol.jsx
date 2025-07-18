@@ -1,3 +1,5 @@
+import React from 'react';
+
 function SpaceControl() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
@@ -16,25 +18,18 @@ function SpaceControl() {
           style={{
             width: '100%',
             maxWidth: '800px',
-            borderRadius: '0',
-            boxShadow: 'none',
             display: 'block',
             margin: '0 auto'
           }}
         />
       </div>
 
-      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        tools & role
-      </p>
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        wrote, designed, and programmed the game in Godot Engine. environments were modeled and textured in Blender.
+        wrote, designed, and programmed the game in Godot Engine.
       </p>
 
-      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        design process
-      </p>
-
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>design process</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         this project began with a character idea and quickly expanded into a collection of scripted mini-games tied together through narrative. i scripted all gameplay logic, designed the entire environment, and co-wrote the story — including the concept of unknowingly working for an evil company.
       </p>
@@ -58,19 +53,18 @@ function SpaceControl() {
         each scene was created to balance visual storytelling with interactive pressure — blending eerie overlays, distorted interfaces, and decision-making elements into one short but unsettling game.
       </p>
 
-      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        play the game!
-      </p>
-
+      <p style={{ fontSize: '1rem', fontWeight: '700' }}>play the game!</p>
       <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
-          title="Space Control"
           width="552"
           height="167"
-          src="https://itch.io/embed/2690772"
           frameBorder="0"
+          src="https://itch.io/embed/2690772"
+          title="Space Control"
           style={{ border: 'none', maxWidth: '100%' }}
-        ></iframe>
+        >
+          <a href="https://cndles.itch.io/space-control">space control by cndles</a>
+        </iframe>
       </div>
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
@@ -87,13 +81,7 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'all 0.2s ease-in-out'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.transform = 'scale(1.04)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.transform = 'scale(1)';
+            transition: 'transform 0.2s ease-in-out'
           }}
         >
           play on itch.io ↗
@@ -112,13 +100,7 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'all 0.2s ease-in-out'
-          }}
-          onMouseEnter={(e) => {
-            e.target.style.transform = 'scale(1.04)';
-          }}
-          onMouseLeave={(e) => {
-            e.target.style.transform = 'scale(1)';
+            transition: 'transform 0.2s ease-in-out'
           }}
         >
           ← back to projects

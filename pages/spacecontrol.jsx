@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 
 function useFadeInOnScroll() {
   useEffect(() => {
+    if (typeof window === 'undefined') return;
+
     const elements = document.querySelectorAll('.fade-in');
     const observer = new IntersectionObserver(
       entries => {
@@ -91,8 +93,6 @@ function SpaceControl() {
             style={{
               width: '100%',
               maxWidth: '800px',
-              margin: '0 auto',
-              gridColumn: 'span 2',
               opacity: 0,
               transform: 'translateY(20px)',
               transition: 'opacity 0.6s ease-out, transform 0.6s ease-out'

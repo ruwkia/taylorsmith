@@ -6,7 +6,7 @@ function SpaceControl() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        Face the battle of complacency and morality as you repair your broken spaceship. This short narrative game explores decision-making under pressure.
+        face the battle of complacency and morality as you repair your broken spaceship. this short narrative game explores decision-making under pressure.
       </p>
 
       <div style={{ margin: '2rem 0' }}>
@@ -28,11 +28,11 @@ function SpaceControl() {
         tools & role
       </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        Wrote, designed, and programmed the game in Godot Engine.
+        wrote, designed, and programmed the game in Godot Engine.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        play demo
+        play the game!
       </p>
       <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
@@ -43,7 +43,7 @@ function SpaceControl() {
           title="Space Control"
           style={{ border: 'none', maxWidth: '100%' }}
         >
-          <a href="https://cndles.itch.io/space-control">Space Control by cndles</a>
+          <a href="https://cndles.itch.io/space-control">space control by cndles</a>
         </iframe>
       </div>
 

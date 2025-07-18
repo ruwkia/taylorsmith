@@ -59,7 +59,15 @@ function SpaceControl() {
             borderRadius: '9999px',
             textDecoration: 'none',
             fontSize: '1rem',
-            display: 'inline-block'
+            display: 'inline-block',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'all 0.2s ease-in-out'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'scale(1.04)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'scale(1)';
           }}
         >
           play on itch.io ↗
@@ -76,7 +84,15 @@ function SpaceControl() {
             borderRadius: '9999px',
             textDecoration: 'none',
             fontSize: '1rem',
-            display: 'inline-block'
+            display: 'inline-block',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'all 0.2s ease-in-out'
+          }}
+          onMouseEnter={(e) => {
+            e.target.style.transform = 'scale(1.04)';
+          }}
+          onMouseLeave={(e) => {
+            e.target.style.transform = 'scale(1)';
           }}
         >
           ← back to projects

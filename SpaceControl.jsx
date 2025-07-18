@@ -26,7 +26,7 @@ function SpaceControl() {
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        wrote, designed, and programmed the game in Godot Engine. designed the environment in Blender.
+        wrote, designed, and programmed the game in Godot Engine. environment created in Blender.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>design process</p>
@@ -80,7 +80,8 @@ function SpaceControl() {
             textDecoration: 'none',
             fontSize: '1rem',
             display: 'inline-block',
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)'
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'transform 0.2s ease-in-out'
           }}
         >
           play on itch.io ↗
@@ -98,7 +99,8 @@ function SpaceControl() {
             textDecoration: 'none',
             fontSize: '1rem',
             display: 'inline-block',
-            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)'
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'transform 0.2s ease-in-out'
           }}
         >
           ← back to projects

@@ -42,7 +42,7 @@ h2 {
 }
 
 .card {
-  border: 1.5px solid rgba(0, 0, 0, 0.85);
+  /* border: 1.5px solid rgba(0, 0, 0, 0.85); */
   cursor: pointer;
 }
 

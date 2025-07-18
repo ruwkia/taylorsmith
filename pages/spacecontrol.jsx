@@ -1,7 +1,7 @@
 function SpaceControl() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace" }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         space control
       </h1>
 
@@ -28,7 +28,7 @@ function SpaceControl() {
         tools & role
       </p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        wrote, designed, and programmed the game in Godot Engine.
+        wrote, designed, and programmed the game in Godot Engine. environments were modeled and textured in Blender.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
@@ -45,13 +45,13 @@ function SpaceControl() {
         gap: '2rem',
         marginBottom: '2rem'
       }}>
-        <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%', maxWidth: '600px' }} />
-        <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
-        <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
-        <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%', maxWidth: '600px', gridColumn: 'span 2' }} />
+        <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%' }} />
+        <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%' }} />
+        <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%' }} />
+        <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%' }} />
+        <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%', gridColumn: 'span 2' }} />
+        <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%', gridColumn: 'span 2' }} />
+        <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%', gridColumn: 'span 2' }} />
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
@@ -64,12 +64,13 @@ function SpaceControl() {
 
       <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
         <iframe
+          title="Space Control"
           width="552"
           height="167"
           src="https://itch.io/embed/2690772"
-          title="Space Control"
+          frameBorder="0"
           style={{ border: 'none', maxWidth: '100%' }}
-        />
+        ></iframe>
       </div>
 
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>

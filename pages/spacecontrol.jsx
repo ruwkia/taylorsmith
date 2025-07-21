@@ -3,7 +3,7 @@ import React from 'react';
 function SpaceControl() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
+      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace" }}>
         space control
       </h1>
 
@@ -81,8 +81,10 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'transform 0.2s ease-in-out'
+            transition: 'opacity 0.2s ease-in-out'
           }}
+          onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
         >
           play on itch.io ↗
         </a>
@@ -100,8 +102,10 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'transform 0.2s ease-in-out'
+            transition: 'opacity 0.2s ease-in-out'
           }}
+          onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
+          onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
         >
           ← back to projects
         </a>

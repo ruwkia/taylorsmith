@@ -6,7 +6,9 @@ function BunnyPuzzle() {
       style={{
         padding: '2rem',
         fontFamily: "'IBM Plex Mono', monospace",
-        color: 'rgba(0, 0, 0, 0.85)'
+        color: 'rgba(0, 0, 0, 0.85)',
+        maxWidth: '1500px',
+        margin: '0 auto'
       }}
     >
       <h1

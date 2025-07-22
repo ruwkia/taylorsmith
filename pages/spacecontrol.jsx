@@ -34,14 +34,21 @@ function SpaceControl() {
         this project began with a character idea and quickly expanded into a collection of scripted mini-games tied together through narrative. i scripted all gameplay logic, designed the entire environment, and co-wrote the story — including the concept of unknowingly working for an evil company.
       </p>
 
-<div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '2rem' }}>
-  <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%', margin: '0 auto' }} />
-  <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%', margin: '0 auto' }} />
+<div style={{
+  display: 'flex',
+  flexDirection: 'column',
+  gap: '2rem',
+  marginBottom: '2rem',
+  width: '100vw',
+  marginLeft: 'calc(-50vw + 50%)'
+}}>
+  <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '100%' }} />
+  <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '100%' }} />
 </div>
 
 

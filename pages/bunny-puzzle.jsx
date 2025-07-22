@@ -53,9 +53,9 @@ function BunnyPuzzle() {
         gap: '2rem',
         marginBottom: '2rem'
       }}>
-        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
+        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
@@ -68,13 +68,13 @@ function BunnyPuzzle() {
         gap: '2rem',
         marginBottom: '2rem'
       }}>
-        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/projects/bunnygame.png" alt="Sand biome screen" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
-        <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '1800px', margin: '0 auto' }} />
+        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/projects/bunnygame.png" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+        <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
       </div>
 
       <p style={{ fontSize: '1rem' }}>

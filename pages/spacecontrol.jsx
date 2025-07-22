@@ -81,10 +81,16 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'opacity 0.2s ease-in-out'
+            transition: 'transform 0.2s ease, opacity 0.2s ease'
           }}
-          onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-          onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.opacity = '0.85';
+            e.currentTarget.style.transform = 'scale(1.03)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.opacity = '1';
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
           play on itch.io ↗
         </a>
@@ -102,10 +108,16 @@ function SpaceControl() {
             fontSize: '1rem',
             display: 'inline-block',
             boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
-            transition: 'opacity 0.2s ease-in-out'
+            transition: 'transform 0.2s ease, opacity 0.2s ease'
           }}
-          onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.7'; }}
-          onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.opacity = '0.85';
+            e.currentTarget.style.transform = 'scale(1.03)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.opacity = '1';
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
         >
           ← back to projects
         </a>

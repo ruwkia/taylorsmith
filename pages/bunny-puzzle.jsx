@@ -2,19 +2,7 @@ import React from 'react';
 
 function BunnyPuzzle() {
   return (
-    <div
-      style={{
-        width: '100vw',
-        position: 'relative',
-        left: '50%',
-        right: '50%',
-        marginLeft: '-50vw',
-        marginRight: '-50vw',
-        padding: '2rem',
-        fontFamily: "'IBM Plex Mono', monospace",
-        color: 'rgba(0, 0, 0, 0.85)'
-      }}
-    >
+    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
       <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
         bunny puzzles
       </h1>
@@ -24,9 +12,9 @@ function BunnyPuzzle() {
       </p>
 
       <div style={{ margin: '2rem 0' }}>
-        <img 
+        <img
           src="/images/artworks/IMG_0245.png"
-          alt="Bunny Puzzle Screenshot" 
+          alt="Bunny Puzzle Screenshot"
           style={{
             width: '100%',
             maxWidth: '1800px',
@@ -36,9 +24,7 @@ function BunnyPuzzle() {
         />
       </div>
 
-      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem', marginBottom: '0.5rem' }}>
-        tools & role
-      </p>
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         created all assets in Adobe Illustrator and built the game in Godot Engine.
       </p>
@@ -47,34 +33,24 @@ function BunnyPuzzle() {
         here’s a peek at the design process, from early level mockups to interface concepts and loading animations:
       </p>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr',
-        gap: '2rem',
-        marginBottom: '2rem'
-      }}>
-        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
+        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '800px' }} />
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
         the project began with biome-level art concepts, exploring different environments the bunny could travel through. these were followed by UI designs for a potential home screen, then animation tests and a shop interface to imagine how the game might feel in motion.
       </p>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: '1fr',
-        gap: '2rem',
-        marginBottom: '2rem'
-      }}>
-        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/projects/bunnygame.png" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
-        <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }} />
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
+        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/projects/bunnygame.png" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnysandbiome.PNG" alt="Sand biome screen" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/roughdemogif.gif" alt="Rough gameplay demo" style={{ width: '100%', maxWidth: '800px' }} />
       </div>
 
       <p style={{ fontSize: '1rem' }}>

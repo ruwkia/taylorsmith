@@ -43,7 +43,7 @@ function Seashell() {
       }}>
         {/* FIXED GIF WITH DEFAULT STYLING */}
         <img
-          src="/images/artworks/shorelinehomefixedfr.gif"
+          src="/images/artworks/shorelinefixedfr.gif"
           alt="Seashell Home Animation"
           style={{
             width: '100%',

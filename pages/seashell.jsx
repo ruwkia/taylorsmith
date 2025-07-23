@@ -3,10 +3,9 @@ import React from 'react';
 function Seashell() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-   <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
-  shoreline scavenger
-</p>
-
+      <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
+        shoreline scavenger
+      </p>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         a relaxing shoreline scavenger game where you collect seashells before the day ends. grab sunscreen to extend your time on the beach, and watch out for crabs—they’ll slow you down! when the timer runs out, it’s time to head home.
@@ -27,7 +26,7 @@ function Seashell() {
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-      created all pixel art assets using Pixelable on iPad, then scripted the game in Godot Engine.
+        created all pixel art assets using Pixelable on iPad, then scripted the game in Godot Engine.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>design process</p>
@@ -42,19 +41,26 @@ function Seashell() {
         marginBottom: '2rem',
         alignItems: 'center'
       }}>
-        <div style={{ overflow: 'hidden', width: '100%', maxWidth: '1450px' }}>
-  <img
-    src="/images/artworks/shorelinehomefixedfr.gif"
-    alt="Seashell Home Animation"
-    style={{
-      width: 'calc(100% + 50px)',
-      marginRight: '-50px',
-      display: 'block'
-    }}
-  />
-</div>
+        {/* FIXED GIF WITH DEFAULT STYLING */}
+        <img
+          src="/images/artworks/shorelinehomefixedfr.gif"
+          alt="Seashell Home Animation"
+          style={{
+            width: '100%',
+            maxWidth: '1500px',
+            display: 'block',
+            margin: '0 auto'
+          }}
+        />
 
-        <img src="/images/artworks/shorelinegameplay.gif" alt="Seashell Gameplay" style={{ width: '150%', maxWidth: '1500px' }} />
+        <img
+          src="/images/artworks/shorelinegameplay.gif"
+          alt="Seashell Gameplay"
+          style={{
+            width: '150%',
+            maxWidth: '1500px'
+          }}
+        />
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>

@@ -46,10 +46,8 @@ function Seashell() {
           src="/images/artworks/shorelinefixedfr.gif"
           alt="Seashell Home Animation"
           style={{
-            width: '100%',
-            maxWidth: '1500px',
-            display: 'block',
-            margin: '0 auto'
+         width: '150%',
+            maxWidth: '1500px'
           }}
         />
 

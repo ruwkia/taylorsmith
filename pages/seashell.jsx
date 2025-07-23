@@ -8,7 +8,7 @@ function Seashell() {
       </h1>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        an interactive experience about memory, distance, and listening. seashell invites players to explore a nostalgic shoreline while tuning into fragmented voices from the past.
+        a relaxing shoreline scavenger game where you collect seashells before the day ends. grab sunscreen to extend your time on the beach, and watch out for crabs—they’ll slow you down! when the timer runs out, it’s time to head home.
       </p>
 
       <div style={{ margin: '2rem 0' }}>
@@ -26,12 +26,12 @@ function Seashell() {
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        designed the environment in Blender and scripted all mechanics in Godot Engine. also created voiceovers and sound integration.
+        designed the environment in Blender and scripted all mechanics in Godot Engine. created all game assets and animations.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>design process</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        seashell was built as a mood-driven experience, where audio fragments guide the story rather than text. experimenting with environmental storytelling, I blended subtle animation, nonlinear dialogue, and low-poly aesthetics to evoke a sense of quiet reflection.
+        this project focuses on ambient gameplay and soft visuals. I wanted to build something gentle and self-paced, where players could enjoy small interactions and natural scenery without pressure.
       </p>
 
       <div style={{
@@ -46,10 +46,53 @@ function Seashell() {
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
-        the project explores themes of emotional resonance and ephemeral memory—using sound design, ambient visuals, and layered interactions to shape the story.
+        seashell blends simple collection mechanics with calming sound design and gentle animation to create a peaceful moment of play.
       </p>
 
+      <p style={{ fontSize: '1rem', fontWeight: '700' }}>play the game!</p>
+      <div style={{ textAlign: 'center', margin: '1.5rem 0' }}>
+        <iframe
+          frameBorder="0"
+          src="https://itch.io/embed/2690729"
+          width="552"
+          height="167"
+          title="Shoreline Scavenger"
+          style={{ border: 'none', maxWidth: '100%' }}
+        >
+          <a href="https://cndles.itch.io/shoreline-scavenger">Shoreline Scavenger by cndles</a>
+        </iframe>
+      </div>
+
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+        <a
+          href="https://cndles.itch.io/shoreline-scavenger"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            backgroundColor: '#E6E6FA',
+            color: '#BFA7C5',
+            padding: '10px 24px',
+            borderRadius: '9999px',
+            textDecoration: 'none',
+            fontSize: '1rem',
+            display: 'inline-block',
+            boxShadow: '0 4px 10px rgba(0, 0, 0, 0.08)',
+            transition: 'transform 0.2s ease, opacity 0.2s ease'
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.opacity = '0.85';
+            e.currentTarget.style.transform = 'scale(1.03)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.opacity = '1';
+            e.currentTarget.style.transform = 'scale(1)';
+          }}
+        >
+          play on itch.io ↗
+        </a>
+      </div>
+
+      <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
         <a
           href="/projects"
           style={{
@@ -80,4 +123,3 @@ function Seashell() {
 }
 
 export default Seashell;
-

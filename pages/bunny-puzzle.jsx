@@ -7,7 +7,7 @@ function BunnyPuzzle() {
         padding: '2rem',
         fontFamily: "'IBM Plex Mono', monospace",
         color: 'rgba(0, 0, 0, 0.85)',
-        maxWidth: '100%',
+        maxWidth: '1500px',
         margin: '0 auto'
       }}
     >
@@ -15,7 +15,8 @@ function BunnyPuzzle() {
         style={{
           fontSize: '1rem',
           fontWeight: '700',
-          marginBottom: '1rem'
+          marginBottom: '1rem',
+          fontFamily: "'IBM Plex Mono', monospace"
         }}
       >
         bunny puzzles
@@ -31,7 +32,7 @@ function BunnyPuzzle() {
           alt="Bunny Puzzle Screenshot"
           style={{
             width: '100%',
-            maxWidth: '1500px',
+            maxWidth: '1800px',
             display: 'block',
             margin: '0 auto'
           }}
@@ -47,7 +48,15 @@ function BunnyPuzzle() {
         here’s a peek at the design process, from early level mockups to interface concepts and loading animations:
       </p>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '2rem',
+          marginBottom: '2rem'
+        }}
+      >
         <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '1500px' }} />
@@ -57,7 +66,15 @@ function BunnyPuzzle() {
         the project began with biome-level art concepts, exploring different environments the bunny could travel through. these were followed by UI designs for a potential home screen, then animation tests and a shop interface to imagine how the game might feel in motion.
       </p>
 
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', marginBottom: '2rem' }}>
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '2rem',
+          marginBottom: '2rem'
+        }}
+      >
         <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '1500px' }} />

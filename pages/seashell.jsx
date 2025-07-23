@@ -44,7 +44,7 @@ function Seashell() {
       }}>
         <div style={{ overflow: 'hidden', width: '150%', maxWidth: '1500px' }}>
   <img
-    src="/images/artworks/shorelinehomefixed.gif"
+    src="/images/artworks/shorelinehomefixedfr.gif"
     alt="Seashell Home Animation"
     style={{
       width: 'calc(100% + 50px)',

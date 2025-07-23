@@ -42,7 +42,18 @@ function Seashell() {
         marginBottom: '2rem',
         alignItems: 'center'
       }}>
-        <img src="/images/artworks/shorelinehome.gif" alt="Seashell Home Animation" style={{ width: '150%', maxWidth: '1500px' }} />
+        <div style={{ overflow: 'hidden', width: '100%', maxWidth: '1450px' }}>
+  <img
+    src="/images/artworks/shorelinehome.gif"
+    alt="Seashell Home Animation"
+    style={{
+      width: 'calc(100% + 50px)',
+      marginRight: '-50px',
+      display: 'block'
+    }}
+  />
+</div>
+
         <img src="/images/artworks/shorelinegameplay.gif" alt="Seashell Gameplay" style={{ width: '150%', maxWidth: '1500px' }} />
       </div>
 

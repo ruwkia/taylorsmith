@@ -41,14 +41,15 @@ function SpaceControl() {
   marginBottom: '2rem',
   alignItems: 'center'
 }}>
-  <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '150%', maxWidth: '1500px' }} />
+  
   <img src="/images/artworks/Rabbit_V1_Render (1).png" alt="bunny" style={{ width: '150%', maxWidth: '1500px' }} />
-  <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '150%', maxWidth: '1500px' }} />
-  <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '150%', maxWidth: '1500px' }} />
-  <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '150%', maxWidth: '1500px' }} />
   <img src="/images/artworks/spacecontrolpuzzle.png" alt="Puzzle screen" style={{ width: '150%', maxWidth: '1500px' }} />
   <img src="/images/artworks/spacecontrolslider.png" alt="Slider interface" style={{ width: '150%', maxWidth: '1500px' }} />
-  <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '150%', maxWidth: '1500px' }} />
+  <img src="/images/artworks/spacecontrolemail.png" alt="Email screen" style={{ width: '150%', maxWidth: '1500px' }} /> 
+  <img src="/images/artworks/spacecontroltopsecret.png" alt="Top Secret screen" style={{ width: '150%', maxWidth: '1500px' }} />
+  <img src="/images/artworks/spacecontrolsus.png" alt="Suspicious screen" style={{ width: '150%', maxWidth: '1500px' }} />
+  <img src="/images/artworks/spacecontrolleave.png" alt="Leave screen" style={{ width: '150%', maxWidth: '1500px' }} />
+  <img src="/images/artworks/spacecontrolhope.png" alt="Hope screen" style={{ width: '150%', maxWidth: '1500px' }} />
 </div>
 
 

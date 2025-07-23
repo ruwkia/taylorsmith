@@ -27,7 +27,7 @@ function Seashell() {
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>tools & role</p>
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
-        designed the environment in Blender and scripted all mechanics in Godot Engine. created all game assets and animations.
+      created all pixel art assets using Pixelable on iPad, then scripted the game in Godot Engine.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700', marginTop: '2rem' }}>design process</p>

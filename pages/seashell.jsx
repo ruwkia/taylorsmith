@@ -42,9 +42,9 @@ function Seashell() {
         marginBottom: '2rem',
         alignItems: 'center'
       }}>
-        <div style={{ overflow: 'hidden', width: '100%', maxWidth: '1450px' }}>
+        <div style={{ overflow: 'hidden', width: '150%', maxWidth: '1500px' }}>
   <img
-    src="/images/artworks/shorelinehome.gif"
+    src="/images/artworks/shorelinehomefixed.gif"
     alt="Seashell Home Animation"
     style={{
       width: 'calc(100% + 50px)',

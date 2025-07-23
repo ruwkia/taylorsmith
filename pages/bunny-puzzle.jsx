@@ -57,7 +57,7 @@ function BunnyPuzzle() {
           marginBottom: '2rem'
         }}
       >
-        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '800px' }} />
+        <img src="/images/artworks/bunnyappicon.png" alt="App icon design" style={{ width: '100%', maxWidth: '300px' }} />
         <img src="/images/artworks/Artboard 1.png" alt="Design process sketch" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/bunnyinfo.png" alt="Plot summary" style={{ width: '100%', maxWidth: '1500px' }} />
       </div>

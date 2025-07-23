@@ -2,25 +2,10 @@ import React from 'react';
 
 function BunnyPuzzle() {
   return (
-    <div
-      style={{
-        padding: '2rem',
-        fontFamily: "'IBM Plex Mono', monospace",
-        color: 'rgba(0, 0, 0, 0.85)',
-        maxWidth: '1500px',
-        margin: '0 auto'
-      }}
-    >
-      <h1
-        style={{
-          fontSize: '1rem',
-          fontWeight: '700',
-          marginBottom: '1rem',
-          fontFamily: "'IBM Plex Mono', monospace"
-        }}
-      >
-        bunny puzzles
-      </h1>
+      <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
+   <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
+ bunny puzzles
+</p>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         bunny puzzles is a cozy mobile game concept where you rotate pipes to create a clear path for water before the timer runs out—or before it spills. completing levels unlocks new bunny characters to collect!

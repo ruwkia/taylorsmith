@@ -2,10 +2,10 @@ import React from 'react';
 
 function SpaceControl() {
   return (
-    <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem', fontFamily: "'IBM Plex Mono', monospace" }}>
-        space control
-      </h1>
+       <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
+   <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
+  space control
+</p>
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         face the battle of complacency and morality as you repair your broken spaceship. this short narrative game explores decision-making under pressure.

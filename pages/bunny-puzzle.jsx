@@ -75,7 +75,7 @@ function BunnyPuzzle() {
           marginBottom: '2rem'
         }}
       >
-        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '1500px' }} />
+        <img src="/images/artworks/bunnyloadinggif.gif" alt="Pink loading bunny animation" style={{ width: '100%', maxWidth: '2000px' }} />
         <img src="/images/artworks/otherloadinggif.gif" alt="Alternate loading animation" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/blackloadingbunny.gif" alt="Black bunny loading animation" style={{ width: '100%', maxWidth: '1500px' }} />
         <img src="/images/artworks/bunnyshop.png" alt="Main puzzle screen" style={{ width: '100%', maxWidth: '1500px' }} />

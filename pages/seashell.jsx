@@ -4,7 +4,7 @@ function Seashell() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
    <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
-  seashell scavenger
+  shoreline scavenger
 </p>
 
 
@@ -47,7 +47,7 @@ function Seashell() {
       </div>
 
       <p style={{ fontSize: '1rem', marginBottom: '2rem' }}>
-        seashell blends simple collection mechanics with calming sound design and gentle animation to create a peaceful moment of play.
+        shoreline scavenger blends simple collection mechanics with calming sound design and gentle animation to create a peaceful moment of play.
       </p>
 
       <p style={{ fontSize: '1rem', fontWeight: '700' }}>play the game!</p>

@@ -3,9 +3,10 @@ import React from 'react';
 function Seashell() {
   return (
     <div style={{ padding: '2rem', fontFamily: "'IBM Plex Mono', monospace", color: 'rgba(0, 0, 0, 0.85)' }}>
-      <h1 style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
-        seashell
-      </h1>
+   <p style={{ fontSize: '1rem', fontWeight: '700', marginBottom: '1rem' }}>
+  seashell scavenger
+</p>
+
 
       <p style={{ fontSize: '1rem', marginBottom: '1.5rem' }}>
         a relaxing shoreline scavenger game where you collect seashells before the day ends. grab sunscreen to extend your time on the beach, and watch out for crabs—they’ll slow you down! when the timer runs out, it’s time to head home.

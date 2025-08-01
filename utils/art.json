@@ -46,7 +46,8 @@
             {
                 "title": "martini",
                 "images": ["/images/artworks/martini.png"]
-            {
+            {,
+            }
                 "title": "ghostie",
                 "images": ["/images/artworks/ghostie.gif"]
             },

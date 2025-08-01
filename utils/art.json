@@ -1,121 +1,122 @@
 [
-    {
-      "title": "3d",
-      "list": [
-        {
-            "title": "bakery",
-            "images": ["/images/artworks/bunny_bakery.gif"]
-        },
-        {
-            "title": "desolate",
-            "images": ["/images/artworks/world2.gif"]
-        },
-        {
-            "title": "tv",
-            "images": ["/images/artworks/tv.gif"]
-        },
-        {
-            "title": "summer",
-            "images": ["/images/artworks/CliffRender2.png"]
-        },
-        {
-            "title": "oceanside",
-            "images": ["/images/artworks/GoodbyeSceneRender3.png"]
-        },
-        {
-          "title": "chessboard",
-          "images": ["/images/artworks/chessboard.png"]
-        },
-        {
-            "title": "fidget cube",
-            "images": ["/images/artworks/fidget_cube.png"]
-        },
-        {
-            "title": "macaroons",
-            "images": ["/images/artworks/macaroons.png"]
-        },
-        {
-            "title": "sushi",
-            "images": ["/images/artworks/sushi.png"]
-        }
-      ]
-    },
-    {
-        "title": "2d",
-        "list": [
-            {
-                "title": "ghostie",
-                "images": ["/images/artworks/ghostie.gif"]
-            },
-            {
-                "title": "zzz",
-                "images": ["/images/artworks/milo_zzz.gif"]
-            },
-            {
-                "title": "confetti",
-                "images": ["/images/artworks/angel.jpg"]
-            },
-            {
-                "title": "shapes",
-                "images": ["/images/artworks/abstract_shapes.jpg"]
-            },
-            {
-                "title": "love",
-                "images": ["/images/artworks/love.jpg"]
-            },
-            {
-                "title": "mari",
-                "images": ["/images/artworks/mari.png"]
-            },
-            {
-                "title": "overlay",
-                "images": ["/images/artworks/overlay.jpg"]
-            },
-            {
-                "title": "planet",
-                "images": ["/images/artworks/planet.jpg"]
-            },
-            {
-                "title": "rainbow",
-                "images": ["/images/artworks/rainbow.jpg"]
-            }
-      ]
-    },
-    {
-        "title": "posters",
-        "list": [
-            {
-                "title": "martini",
-                "images": ["/images/artworks/martini.png"]
-            {
-                "title": "calluna",
-                "images": ["/images/artworks/calluna.png"]
-            },
-            {
-                "title": "confidence",
-                "images": ["/images/artworks/confidence.jpg"]
-            },
-            {
-                "title": "stay hydrated",
-                "images": ["/images/artworks/stayhydrated.png"]
-            },
-            {
-                "title": "think before you drink",
-                "images": ["/images/artworks/thinkbeforeyoudrink.jpg"]
-            }
-        ]
-    },
-    {
-        "title": "other",
-        "list": [
-            {
-                "title": "photography",
-                "images": ["/images/artworks/photography.png"]
-            },
-            {
-                "title": "russian doll",
-                "images": ["/images/artworks/russiandoll.jpg"]
-            }
-        ]
-    }
-  ]
+  {
+    "title": "3d",
+    "list": [
+      {
+        "title": "bakery",
+        "images": ["/images/artworks/bunny_bakery.gif"]
+      },
+      {
+        "title": "desolate",
+        "images": ["/images/artworks/world2.gif"]
+      },
+      {
+        "title": "tv",
+        "images": ["/images/artworks/tv.gif"]
+      },
+      {
+        "title": "summer",
+        "images": ["/images/artworks/CliffRender2.png"]
+      },
+      {
+        "title": "oceanside",
+        "images": ["/images/artworks/GoodbyeSceneRender3.png"]
+      },
+      {
+        "title": "chessboard",
+        "images": ["/images/artworks/chessboard.png"]
+      },
+      {
+        "title": "fidget cube",
+        "images": ["/images/artworks/fidget_cube.png"]
+      },
+      {
+        "title": "macaroons",
+        "images": ["/images/artworks/macaroons.png"]
+      },
+      {
+        "title": "sushi",
+        "images": ["/images/artworks/sushi.png"]
+      }
+    ]
+  },
+  {
+    "title": "2d",
+    "list": [
+      {
+        "title": "ghostie",
+        "images": ["/images/artworks/ghostie.gif"]
+      },
+      {
+        "title": "zzz",
+        "images": ["/images/artworks/milo_zzz.gif"]
+      },
+      {
+        "title": "confetti",
+        "images": ["/images/artworks/angel.jpg"]
+      },
+      {
+        "title": "shapes",
+        "images": ["/images/artworks/abstract_shapes.jpg"]
+      },
+      {
+        "title": "love",
+        "images": ["/images/artworks/love.jpg"]
+      },
+      {
+        "title": "mari",
+        "images": ["/images/artworks/mari.png"]
+      },
+      {
+        "title": "overlay",
+        "images": ["/images/artworks/overlay.jpg"]
+      },
+      {
+        "title": "planet",
+        "images": ["/images/artworks/planet.jpg"]
+      },
+      {
+        "title": "rainbow",
+        "images": ["/images/artworks/rainbow.jpg"]
+      }
+    ]
+  },
+  {
+    "title": "posters",
+    "list": [
+      {
+        "title": "martini",
+        "images": ["/images/artworks/martini.png"]
+      },
+      {
+        "title": "calluna",
+        "images": ["/images/artworks/calluna.png"]
+      },
+      {
+        "title": "confidence",
+        "images": ["/images/artworks/confidence.jpg"]
+      },
+      {
+        "title": "stay hydrated",
+        "images": ["/images/artworks/stayhydrated.png"]
+      },
+      {
+        "title": "think before you drink",
+        "images": ["/images/artworks/thinkbeforeyoudrink.jpg"]
+      }
+    ]
+  },
+  {
+    "title": "other",
+    "list": [
+      {
+        "title": "photography",
+        "images": ["/images/artworks/photography.png"]
+      },
+      {
+        "title": "russian doll",
+        "images": ["/images/artworks/russiandoll.jpg"]
+      }
+    ]
+  }
+]
